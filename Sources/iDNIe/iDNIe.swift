@@ -3,4 +3,9 @@ public struct iDNIe {
 
     public init() {
     }
+    
+    public func devuelveTexto() -> String
+    {
+        return text
+    }
 }
