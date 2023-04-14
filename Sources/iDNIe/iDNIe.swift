@@ -1,3 +1,5 @@
+import Foundation
+
 public struct iDNIe {
     public private(set) var text = "Hello, World!"
 
@@ -6,6 +8,7 @@ public struct iDNIe {
     
     public func devuelveTexto() -> String
     {
-        return text
+        let bundleID = Bundle.main.bundleIdentifier
+        return text + bundleID!
     }
 }
