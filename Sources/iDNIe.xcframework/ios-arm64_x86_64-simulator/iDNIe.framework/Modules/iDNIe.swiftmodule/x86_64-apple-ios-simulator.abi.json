@@ -1,0 +1,171 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "iDNIe",
+        "printedName": "iDNIe",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIeAAV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s5iDNIeAAV9configure6apiKeyySS_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV4textSSvp",
+            "mangledName": "$s5iDNIeAAV4textSSvp",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV4textSSvg",
+                "mangledName": "$s5iDNIeAAV4textSSvg",
+                "moduleName": "iDNIe",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iDNIe",
+                "printedName": "iDNIe.iDNIe",
+                "usr": "s:5iDNIeAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5iDNIeAAVABycfc",
+            "mangledName": "$s5iDNIeAAVABycfc",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "devuelveTexto",
+            "printedName": "devuelveTexto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIeAAV13devuelveTextoSSyF",
+            "mangledName": "$s5iDNIeAAV13devuelveTextoSSyF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5iDNIeAAV",
+        "mangledName": "$s5iDNIeAAV",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/iDNIe.swift",
+      "kind": "BooleanLiteral",
+      "offset": 160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/iDNIe.swift",
+      "kind": "Array",
+      "offset": 204,
+      "length": 17,
+      "value": "[\"privateKey123\"]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/iDNIe.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 15,
+      "value": "\"Hello, World!\""
+    }
+  ]
+}
