@@ -568,6 +568,7 @@ public class PACEInfo : iDNIe.SecurityInfo {
   @objc deinit
 }
 public struct iDNIe {
+  public static func lanzaError(texto: Swift.String?) -> Swift.String
   public static func configure(apiKey: Swift.String)
   public init()
 }

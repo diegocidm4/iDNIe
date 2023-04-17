@@ -16799,6 +16799,42 @@
         "children": [
           {
             "kind": "Function",
+            "name": "lanzaError",
+            "printedName": "lanzaError(texto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIeAAV10lanzaError5textoS2SSg_tFZ",
+            "mangledName": "$s5iDNIeAAV10lanzaError5textoS2SSg_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "configure",
             "printedName": "configure(apiKey:)",
             "children": [
