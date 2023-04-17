@@ -6,7 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		QaSdCkEQ2Hqe3Ej7EcBFi8cchMQ=
+		1GCGHfR9bv6v32MlFJ4Oz/vp59I=
+		</data>
+		<key>Resources/Localizable.strings</key>
+		<data>
+		pAoTt+0WsfENfo00qedMvHC5Ckw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JwnmqI8Yxs1tw14HIhY5pIOLpnPbo64YCQ3GBTJV7vg=
+			eHukmQFMFE/e75+YaLJAvdONXfRLqvhnWOtSkpDaUWU=
 			</data>
 		</dict>
 		<key>Headers/iDNIe.h</key>
@@ -29,70 +33,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eH913kBONMOI3JS1xuYC5jJIyH3ONdN6+Tk9Ctw3iUw=
+			ajLhkQmdhRE4HKjYoxp9GJfkzgxNv6H1iUbLr/+61B8=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aIBHJDdj1/FxcJa2NmlCY8RVUksPzZ3BHHxlSXlL6RQ=
+			J3mCMaHQBgkx3P0C+5RW8jJQv+ns2wtTZqKdEKlpi7U=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yfKGjLLxD7MDuqJkVOMsxcawwVE8ho1p1PLmZmYwlw4=
+			iaCsk1eZiX8q7bMMP9cdVgC4yNxlhQwxawkGL/HYPp4=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aIBHJDdj1/FxcJa2NmlCY8RVUksPzZ3BHHxlSXlL6RQ=
+			J3mCMaHQBgkx3P0C+5RW8jJQv+ns2wtTZqKdEKlpi7U=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P2BqH6hsbBBkysivs2OAy5Prp5wGbJjzDUnw7IvilEo=
+			JbhcLordoTpMBSBUfsZdg63ddstte7fpodA1Qo0dgqo=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eH913kBONMOI3JS1xuYC5jJIyH3ONdN6+Tk9Ctw3iUw=
+			ajLhkQmdhRE4HKjYoxp9GJfkzgxNv6H1iUbLr/+61B8=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cVN0upC9xAOJ0jqF9WYsrMojDef2+YoTItFxnjj5GQY=
+			1akE6wbiKHvXaaeAUrgHzXr30DH3Ji3S4kmbgbsPL6s=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vHjMAeQ1vRdmpPa5bqeubrfZJeUe1N5PB/mpwWtptZ4=
+			dvUjkUxeUi3xincG5247DFXZawYoXLruWZ061I/RvoI=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cVN0upC9xAOJ0jqF9WYsrMojDef2+YoTItFxnjj5GQY=
+			1akE6wbiKHvXaaeAUrgHzXr30DH3Ji3S4kmbgbsPL6s=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0sofgDRCcMT48+cZ8/NUhh9WDwecW0Yla0cy79ZUQhU=
+			lUnz9hqOs4zHX8RW98gC4MwmxLSDB+c6x7qhy3GUxIU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -106,7 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BK+j0I+/pgKE0hwsg2/SxeNt2a5kKy/v0CWy40kSr28=
+			MxASejxMPVZkKwm/flIoFi1L/6Q2S/xCAMoQQ4yz6MY=
+			</data>
+		</dict>
+		<key>Resources/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uZbGqTCMwpLu+4BHWdJy+wyLwOoENkWHbyLg9+7wIeY=
 			</data>
 		</dict>
 	</dict>
