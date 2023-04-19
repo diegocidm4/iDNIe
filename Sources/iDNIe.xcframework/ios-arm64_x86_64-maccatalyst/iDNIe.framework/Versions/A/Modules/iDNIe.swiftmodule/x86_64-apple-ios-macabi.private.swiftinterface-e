@@ -400,6 +400,9 @@ public class DataGroup {
   public static func convertHexaStringtoUInt8Array(hexString: Swift.String) -> [Swift.UInt8]
   @objc deinit
 }
+extension Swift.Array where Element == Swift.UInt8 {
+  public func bytesToHex(spacing: Swift.String) -> Swift.String
+}
 @objc @available(iOS 13, *)
 public class PassportReader : ObjectiveC.NSObject {
   public var passiveAuthenticationUsesOpenSSL: Swift.Bool
@@ -568,7 +571,6 @@ public class PACEInfo : iDNIe.SecurityInfo {
   @objc deinit
 }
 public struct iDNIe {
-  public static func lanzaError(texto: Swift.String?) -> Swift.String
   public static func configure(apiKey: Swift.String)
   public init()
 }
