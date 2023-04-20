@@ -17080,6 +17080,120 @@
           },
           {
             "kind": "Var",
+            "name": "canSeleccionado",
+            "printedName": "canSeleccionado",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV15canSeleccionadoSSSgvpZ",
+            "mangledName": "$s5iDNIeAAV15canSeleccionadoSSSgvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV15canSeleccionadoSSSgvgZ",
+                "mangledName": "$s5iDNIeAAV15canSeleccionadoSSSgvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV15canSeleccionadoSSSgvsZ",
+                "mangledName": "$s5iDNIeAAV15canSeleccionadoSSSgvsZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV15canSeleccionadoSSSgvMZ",
+                "mangledName": "$s5iDNIeAAV15canSeleccionadoSSSgvMZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "passportSeleccionado",
             "printedName": "passportSeleccionado",
             "children": [
@@ -38181,7 +38295,7 @@
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/iDNIe.swift",
       "kind": "BooleanLiteral",
-      "offset": 425,
+      "offset": 478,
       "length": 5,
       "value": "false"
     },

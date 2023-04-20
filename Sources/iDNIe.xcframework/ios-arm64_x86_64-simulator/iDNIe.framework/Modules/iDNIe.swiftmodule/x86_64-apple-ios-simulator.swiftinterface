@@ -578,6 +578,7 @@ public class PACEInfo : SecurityInfo {
 }
 public struct iDNIe {
   public static var datosDNIe: DatosDNIe?
+  public static var canSeleccionado: Swift.String?
   public static var passportSeleccionado: PassportReader?
   public static var pinDNIe: Swift.String?
   public static var urlCredential: Foundation.URLCredential?
