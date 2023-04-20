@@ -577,6 +577,11 @@ public class PACEInfo : SecurityInfo {
   @objc deinit
 }
 public struct iDNIe {
+  public static var datosDNIe: DatosDNIe?
+  public static var passportSeleccionado: PassportReader?
+  public static var pinDNIe: Swift.String?
+  public static var urlCredential: Foundation.URLCredential?
+  public static var nfcActivo: Swift.Bool
   public init()
   public static func configure(apiKey: Swift.String)
 }

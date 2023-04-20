@@ -16965,6 +16965,552 @@
         "printedName": "iDNIe",
         "children": [
           {
+            "kind": "Var",
+            "name": "datosDNIe",
+            "printedName": "datosDNIe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iDNIe.DatosDNIe?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatosDNIe",
+                    "printedName": "iDNIe.DatosDNIe",
+                    "usr": "s:5iDNIe05DatosA0C"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV05datosA0AA05DatosA0CSgvpZ",
+            "mangledName": "$s5iDNIeAAV05datosA0AA05DatosA0CSgvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iDNIe.DatosDNIe?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatosDNIe",
+                        "printedName": "iDNIe.DatosDNIe",
+                        "usr": "s:5iDNIe05DatosA0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV05datosA0AA05DatosA0CSgvgZ",
+                "mangledName": "$s5iDNIeAAV05datosA0AA05DatosA0CSgvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iDNIe.DatosDNIe?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatosDNIe",
+                        "printedName": "iDNIe.DatosDNIe",
+                        "usr": "s:5iDNIe05DatosA0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV05datosA0AA05DatosA0CSgvsZ",
+                "mangledName": "$s5iDNIeAAV05datosA0AA05DatosA0CSgvsZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV05datosA0AA05DatosA0CSgvMZ",
+                "mangledName": "$s5iDNIeAAV05datosA0AA05DatosA0CSgvMZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passportSeleccionado",
+            "printedName": "passportSeleccionado",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iDNIe.PassportReader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassportReader",
+                    "printedName": "iDNIe.PassportReader",
+                    "usr": "c:@M@iDNIe@objc(cs)PassportReader"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvpZ",
+            "mangledName": "$s5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iDNIe.PassportReader?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PassportReader",
+                        "printedName": "iDNIe.PassportReader",
+                        "usr": "c:@M@iDNIe@objc(cs)PassportReader"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvgZ",
+                "mangledName": "$s5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iDNIe.PassportReader?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PassportReader",
+                        "printedName": "iDNIe.PassportReader",
+                        "usr": "c:@M@iDNIe@objc(cs)PassportReader"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvsZ",
+                "mangledName": "$s5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvsZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvMZ",
+                "mangledName": "$s5iDNIeAAV20passportSeleccionadoAA14PassportReaderCSgvMZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pinDNIe",
+            "printedName": "pinDNIe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV03pinA0SSSgvpZ",
+            "mangledName": "$s5iDNIeAAV03pinA0SSSgvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV03pinA0SSSgvgZ",
+                "mangledName": "$s5iDNIeAAV03pinA0SSSgvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV03pinA0SSSgvsZ",
+                "mangledName": "$s5iDNIeAAV03pinA0SSSgvsZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV03pinA0SSSgvMZ",
+                "mangledName": "$s5iDNIeAAV03pinA0SSSgvMZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlCredential",
+            "printedName": "urlCredential",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLCredential?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLCredential",
+                    "printedName": "Foundation.URLCredential",
+                    "usr": "c:objc(cs)NSURLCredential"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvpZ",
+            "mangledName": "$s5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLCredential?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLCredential",
+                        "printedName": "Foundation.URLCredential",
+                        "usr": "c:objc(cs)NSURLCredential"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvgZ",
+                "mangledName": "$s5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLCredential?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLCredential",
+                        "printedName": "Foundation.URLCredential",
+                        "usr": "c:objc(cs)NSURLCredential"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvsZ",
+                "mangledName": "$s5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvsZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvMZ",
+                "mangledName": "$s5iDNIeAAV13urlCredentialSo15NSURLCredentialCSgvMZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nfcActivo",
+            "printedName": "nfcActivo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIeAAV9nfcActivoSbvpZ",
+            "mangledName": "$s5iDNIeAAV9nfcActivoSbvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV9nfcActivoSbvgZ",
+                "mangledName": "$s5iDNIeAAV9nfcActivoSbvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV9nfcActivoSbvsZ",
+                "mangledName": "$s5iDNIeAAV9nfcActivoSbvsZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIeAAV9nfcActivoSbvMZ",
+                "mangledName": "$s5iDNIeAAV9nfcActivoSbvMZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -37629,6 +38175,13 @@
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/iDNIe.swift",
       "kind": "BooleanLiteral",
       "offset": 160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/iDNIe.swift",
+      "kind": "BooleanLiteral",
+      "offset": 425,
       "length": 5,
       "value": "false"
     },
