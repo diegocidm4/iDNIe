@@ -6,6 +6,173 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoTokenKit",
+        "printedName": "CryptoTokenKit",
+        "declKind": "Import",
+        "moduleName": "iDNIe"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "iDNIe"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VirtualTokenUtils",
+        "printedName": "VirtualTokenUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "creaVirtualToken",
+            "printedName": "creaVirtualToken(datosDNIe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatosDNIe",
+                "printedName": "iDNIe.DatosDNIe",
+                "usr": "s:5iDNIe05DatosA0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe17VirtualTokenUtilsC04creabC005datosA0yAA05DatosA0C_tFZ",
+            "mangledName": "$s5iDNIe17VirtualTokenUtilsC04creabC005datosA0yAA05DatosA0C_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "eliminaVirtualToken",
+            "printedName": "eliminaVirtualToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe17VirtualTokenUtilsC07eliminabC0yyFZ",
+            "mangledName": "$s5iDNIe17VirtualTokenUtilsC07eliminabC0yyFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recuperaToken",
+            "printedName": "recuperaToken(tokens:certificate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecCertificate",
+                "printedName": "Security.SecCertificate",
+                "usr": "c:@T@SecCertificateRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe17VirtualTokenUtilsC08recuperaC06tokens11certificateSDySSypGSgSayAGG_So17SecCertificateRefatFZ",
+            "mangledName": "$s5iDNIe17VirtualTokenUtilsC08recuperaC06tokens11certificateSDySSypGSgSayAGG_So17SecCertificateRefatFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5iDNIe17VirtualTokenUtilsC",
+        "mangledName": "$s5iDNIe17VirtualTokenUtilsC",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
         "name": "OpenSSL",
         "printedName": "OpenSSL",
         "declKind": "Import",
@@ -16798,6 +16965,27 @@
         "printedName": "iDNIe",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "iDNIe",
+                "printedName": "iDNIe.iDNIe",
+                "usr": "s:5iDNIeAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5iDNIeAAVABycfc",
+            "mangledName": "$s5iDNIeAAVABycfc",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "configure",
             "printedName": "configure(apiKey:)",
@@ -16823,27 +17011,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "iDNIe",
-                "printedName": "iDNIe.iDNIe",
-                "usr": "s:5iDNIeAAV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5iDNIeAAVABycfc",
-            "mangledName": "$s5iDNIeAAVABycfc",
-            "moduleName": "iDNIe",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -20329,6 +20496,16 @@
       },
       {
         "kind": "Import",
+        "name": "CryptoTokenKit",
+        "printedName": "CryptoTokenKit",
+        "declKind": "Import",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21116,6 +21293,16 @@
         "declAttributes": [
           "AccessControl",
           "Available"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -23396,6 +23583,82 @@
         "declKind": "Class",
         "usr": "s:5iDNIe22InternalAuthenticationC",
         "mangledName": "$s5iDNIe22InternalAuthenticationC",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iDNIe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Variables",
+        "printedName": "Variables",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "APP_GROUP",
+            "printedName": "APP_GROUP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5iDNIe9VariablesC9APP_GROUPSSvpZ",
+            "mangledName": "$s5iDNIe9VariablesC9APP_GROUPSSvpZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5iDNIe9VariablesC9APP_GROUPSSvgZ",
+                "mangledName": "$s5iDNIe9VariablesC9APP_GROUPSSvgZ",
+                "moduleName": "iDNIe",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5iDNIe9VariablesC",
+        "mangledName": "$s5iDNIe9VariablesC",
         "moduleName": "iDNIe",
         "declAttributes": [
           "AccessControl"
@@ -37524,6 +37787,41 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/Autenticacion\/VirtualToken.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 24,
+      "value": "\"com.cqesolutions.iDNIe\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/Autenticacion\/VirtualToken.swift",
+      "kind": "StringLiteral",
+      "offset": 1817,
+      "length": 6,
+      "value": "\"dnie\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/Autenticacion\/VirtualToken.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4515,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/Autenticacion\/VirtualToken.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4562,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/Autenticacion\/VirtualToken.swift",
+      "kind": "StringLiteral",
+      "offset": 4621,
+      "length": 17,
+      "value": "\"secretsPassword\""
+    },
+    {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/DataGroups\/DataGroup1.swift",
       "kind": "Dictionary",
       "offset": 428,
@@ -37620,6 +37918,13 @@
       "offset": 678,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/Variables.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 30,
+      "value": "\"group.com.cqesolutions.iDNIe\""
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/TagReader.swift",

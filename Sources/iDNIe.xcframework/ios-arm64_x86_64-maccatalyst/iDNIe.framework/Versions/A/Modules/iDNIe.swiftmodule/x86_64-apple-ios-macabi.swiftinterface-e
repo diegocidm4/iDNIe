@@ -17,6 +17,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 @_exported import iDNIe
+@_hasMissingDesignatedInitializers public class VirtualTokenUtils {
+  public static func creaVirtualToken(datosDNIe: iDNIe.DatosDNIe)
+  public static func eliminaVirtualToken()
+  public static func recuperaToken(tokens: [[Swift.String : Any]], certificate: Security.SecCertificate) -> [Swift.String : Any]?
+  @objc deinit
+}
 @available(iOS 13, macOS 10.15, *)
 public struct DataGroupHash {
   public var id: Swift.String
@@ -571,8 +577,8 @@ public class PACEInfo : iDNIe.SecurityInfo {
   @objc deinit
 }
 public struct iDNIe {
-  public static func configure(apiKey: Swift.String)
   public init()
+  public static func configure(apiKey: Swift.String)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup11 : iDNIe.DataGroup {
@@ -763,6 +769,10 @@ public class DatosCertificado {
   public var kicc: [Swift.UInt8]?
   public var hash: [Swift.UInt8]?
   public var fin: [Swift.UInt8]?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Variables {
+  public static let APP_GROUP: Swift.String
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DatosDNIe {
