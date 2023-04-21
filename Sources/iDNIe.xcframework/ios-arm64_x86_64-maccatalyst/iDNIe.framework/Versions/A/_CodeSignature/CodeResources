@@ -33,70 +33,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HgAw0dtjEr6ocoPPo821o4Appw12OEqyT/19f2wSQoU=
+			X7/I3lf9nDipPicf9rD8RF8o7BZVy0pA8ywiRWmjVSc=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wApo9lDBMFHcvixjUnmbpe9imhkBUtOK/8a0htbEsXg=
+			xdMfNIs09pTGrZcCRtjUmm3yGU6LHUXMGKLwLAnGr2E=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+t6ZqHWImbzdplB1YUyi5Y7NvoxOEkYN1WkzcFU0Wxs=
+			iaCsk1eZiX8q7bMMP9cdVgC4yNxlhQwxawkGL/HYPp4=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wApo9lDBMFHcvixjUnmbpe9imhkBUtOK/8a0htbEsXg=
+			xdMfNIs09pTGrZcCRtjUmm3yGU6LHUXMGKLwLAnGr2E=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUvThLCLAnK4bVMGe1UVmKAsCnwOw0LY2QorHNjLKLA=
+			I7WbnScsywxA5Db0S+UcJ9fu6d42X68O94OClQ+Lfqc=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HgAw0dtjEr6ocoPPo821o4Appw12OEqyT/19f2wSQoU=
+			X7/I3lf9nDipPicf9rD8RF8o7BZVy0pA8ywiRWmjVSc=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jqWTRUtu+Hs4/QiQin/NosfYyhQnIGrDUoSEz4vamA=
+			QxyzB1MxnL0d41GdSVCMmPrU0sg4Uj+jNsETPN/dExk=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jvwETih7rLC76jVZiT3hDFl2bnGinQfnMeaPLX73z8=
+			dvUjkUxeUi3xincG5247DFXZawYoXLruWZ061I/RvoI=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jqWTRUtu+Hs4/QiQin/NosfYyhQnIGrDUoSEz4vamA=
+			QxyzB1MxnL0d41GdSVCMmPrU0sg4Uj+jNsETPN/dExk=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVI+FbBBAfL82ceUGge58YlMzinRjRtPxnFLZHlbUcY=
+			ZzhCk+UaDqCakd3KYFntsvvrX4O85/Hq3peJdat15u0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
