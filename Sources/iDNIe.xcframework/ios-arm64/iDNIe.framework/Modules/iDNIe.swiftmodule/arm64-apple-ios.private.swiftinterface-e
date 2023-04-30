@@ -391,12 +391,12 @@ public class DataGroup {
 @_hasMissingDesignatedInitializers public class HexadecimalUtils {
   public static func getDirectoryFromPath(path: Swift.String) -> [Swift.UInt8]?
   public static func getFileFromPath(path: Swift.String) -> [Swift.UInt8]?
+  public static func getIDFromPath(path: Swift.String) -> [Swift.UInt8]?
   public static func convertPathToHex(path: Swift.String) -> [Swift.UInt8]?
   public static func convertPartPathToHex(path: Swift.String) -> Swift.UInt8?
   public static func convertLeftCharToHex(caracter: Swift.String) -> Swift.UInt8?
   public static func convertRightCharToHex(caracter: Swift.String) -> Swift.UInt8?
   public static func convertIntToUInt8Array(entero: Swift.Int) -> [Swift.UInt8]?
-  public static func convertIntToUInt8(entero: Swift.Int) -> Swift.UInt8?
   public static func convertHexaStringtoUInt8Array(hexString: Swift.String) -> [Swift.UInt8]
   @objc deinit
 }
@@ -410,12 +410,12 @@ public class PassportReader : ObjectiveC.NSObject {
   public func setMasterListURL(_ masterListURL: Foundation.URL)
   public func overrideNFCDataAmountToRead(amount: Swift.Int)
   public func readPassport(accessKey: Swift.String, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
-  public func signTextDNIe(accessKey: Swift.String, pin: Swift.String, datosFirma: Swift.String, certToUse: iDNIe.DNIeCertificates?, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
-  public func signDocumentDNIe(accessKey: Swift.String, pin: Swift.String, document: Foundation.URL, certToUse: iDNIe.DNIeCertificates, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
-  public func signHashDNIe(accessKey: Swift.String, pin: Swift.String, hash: [Swift.UInt8], digest: [Swift.UInt8], certToUse: iDNIe.DNIeCertificates, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, operacion: iDNIe.DNIeOperations, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
+  public func signTextDNIe(accessKey: Swift.String, pin: Swift.String, datosFirma: Swift.String, signPadding: iDNIe.DNIeSingPadding = .PKCS, certToUse: iDNIe.DNIeCertificates?, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
+  public func signDocumentDNIe(accessKey: Swift.String, pin: Swift.String, document: Foundation.URL, signPadding: iDNIe.DNIeSingPadding = .PKCS, certToUse: iDNIe.DNIeCertificates, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
+  public func signHashDNIe(accessKey: Swift.String, pin: Swift.String, hash: [Swift.UInt8], digest: [Swift.UInt8], signPadding: iDNIe.DNIeSingPadding = .PKCS, certToUse: iDNIe.DNIeCertificates, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, operacion: iDNIe.DNIeOperations, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
   public func authenticationDNIe(accessKey: Swift.String, pin: Swift.String, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
   public func authenticationDNIeOpenSession(accessKey: Swift.String, pin: Swift.String, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [iDNIe.DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
-  public func signChallengeDNIe(hash: [Swift.UInt8], digest: [Swift.UInt8], signPadding: iDNIe.DNIeSingPadding, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
+  public func signChallengeDNIe(hash: [Swift.UInt8], digest: [Swift.UInt8], signPadding: iDNIe.DNIeSingPadding = .PKCS, passport: iDNIe.NFCPassportModel?, paceKeyReference: Swift.UInt8, customDisplayMessage: ((iDNIe.NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ())
   @objc deinit
 }
 @available(iOS 13, *)
@@ -664,7 +664,12 @@ public class X509Wrapper {
   public static func encryptWithDer(base64Cert: Swift.String, message: [Swift.UInt8]) throws -> [Swift.UInt8]?
   public static func getPubKey(base64Cert: Swift.String) throws -> Security.SecKey?
   public static func getPubCertificate(base64Cert: Swift.String) throws -> Security.SecCertificate?
+  public static func getPubKey(pubCertificate: Security.SecCertificate) throws -> Security.SecKey?
   public static func getModulus(publicKey: Security.SecKey) throws -> [Swift.UInt8]?
+  public static func getModulusPSS(publicKey: Security.SecKey) throws -> [Swift.UInt8]?
+  public static func getModulusFromPubCertificate(base64Cert: Swift.String) throws -> [Swift.UInt8]?
+  public static func getModulusSizeInBits(modulus: [Swift.UInt8]) throws -> Swift.Int
+  public static func parsePublicSecKey(publicKey: Security.SecKey) throws -> (mod: Foundation.Data, exp: Foundation.Data)
   public static func encryptWithSecKey(publicKey: Security.SecKey, message: [Swift.UInt8]) throws -> [Swift.UInt8]?
   public static func calculaHash256(prnd: [Swift.UInt8], kic: [Swift.UInt8], rnd: [Swift.UInt8], sn: [Swift.UInt8]) -> [Swift.UInt8]
   public static func calculaHash256(kifdicc: [Swift.UInt8], valor: [Swift.UInt8]) -> [Swift.UInt8]
@@ -674,7 +679,9 @@ public class X509Wrapper {
   public static func calculaHash224(firma: [Swift.UInt8]) -> [Swift.UInt8]
   public static func calculaHash384(firma: [Swift.UInt8]) -> [Swift.UInt8]
   public static func calculaHash512(firma: [Swift.UInt8]) -> [Swift.UInt8]
-  public static func calculaPaddingPSS(hash: [Swift.UInt8], digestInfo: [Swift.UInt8], tamanoClave: Swift.Int) -> [Swift.UInt8]
+  public static func verificaPaddingPSS(message: Swift.String, encodedMessage: [Swift.UInt8], digestInfo: [Swift.UInt8], tamanoClave: Swift.Int, modulus: [Swift.UInt8]) -> Swift.Bool
+  public static func calculaPaddingPSS(hash: [Swift.UInt8], digestInfo: [Swift.UInt8], tamanoClave: Swift.Int, modulus: [Swift.UInt8]) -> [Swift.UInt8]
+  public static func calculaPaddingPKCS(hash: [Swift.UInt8], digestInfo: [Swift.UInt8], tamanoClave: Swift.Int) -> [Swift.UInt8]
   public static func sigMin(moduloICC: [Swift.UInt8], intermedio: [Swift.UInt8]) -> [Swift.UInt8]
   public static func restaModuloMensaje(moduloICC: [Swift.UInt8], intermedio: [Swift.UInt8]) -> [Swift.UInt8]
   public static func xor(valor1: [Swift.UInt8], valor2: [Swift.UInt8]) -> [Swift.UInt8]
@@ -685,7 +692,6 @@ public class X509Wrapper {
   public static func getDocumentHash(url: Foundation.URL) throws -> [Swift.UInt8]
   public static func getSHA256(url: Foundation.URL) throws -> CryptoKit.SHA256.Digest
   public static func getPemFromBase64(base64String: Swift.String) -> Swift.String
-  public static func getPKCS7FromSignature(dataToSign: Foundation.Data, firma: Foundation.Data, base64PublicCert: Swift.String, base64CACert: Swift.String) -> Swift.String?
   @objc deinit
 }
 @available(iOS 13, macOS 10.15, *)

@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XUWNYCkZ/UWb1QScyeCJQHBU/9o=
+		WFGH3DyM/6XC32p8l7QvD0nwQ28=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BVVsssx1FyXMEOgRnAG59bYi23g=
+		tzFBfOYJSs4i6rM8yRQP0IKAgwI=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BVVsssx1FyXMEOgRnAG59bYi23g=
+		tzFBfOYJSs4i6rM8yRQP0IKAgwI=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sFmuuHrW0Y97GWblZv2kSkqUj/4=
+		1eZZOOYWK3fNNvAtU78IpYUoNYc=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XUWNYCkZ/UWb1QScyeCJQHBU/9o=
+		WFGH3DyM/6XC32p8l7QvD0nwQ28=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KB54f+o/dWktSmSMtzbMfdUpohM=
+		eQCsyNwzCN1GMKD1zyvE4oohNIU=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KB54f+o/dWktSmSMtzbMfdUpohM=
+		eQCsyNwzCN1GMKD1zyvE4oohNIU=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+NKR4zeo1fi44kUQ6KOOQfUEf3I=
+		AnhitEukGGhcY4jh283h/ISI7Io=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X7/I3lf9nDipPicf9rD8RF8o7BZVy0pA8ywiRWmjVSc=
+			/QTVmRkBSjsyvtmMsOyNPVWkB0yANaeACiQNDyW/2/s=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fvq43HeXDNfWcn8cA4FvX1BGkAFcA9b7u/G5SzT/n2s=
+			1nCW7e95kGct7J04M1ZKS8l/ZbGnXxBLiMCNQuIz/zI=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,28 +113,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fvq43HeXDNfWcn8cA4FvX1BGkAFcA9b7u/G5SzT/n2s=
+			1nCW7e95kGct7J04M1ZKS8l/ZbGnXxBLiMCNQuIz/zI=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			exvNqCrgywEPLFkwc5MsOErm6+asBnPOEGN3aiP296g=
+			soAqSUHvpeilqBHGP21i/JRaZHV3GmxScXrEl5aYwFA=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X7/I3lf9nDipPicf9rD8RF8o7BZVy0pA8ywiRWmjVSc=
+			/QTVmRkBSjsyvtmMsOyNPVWkB0yANaeACiQNDyW/2/s=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0gbRPHvo4vHTNBe54/lzqsnZkUOk1nWA0Na+Yh78HvM=
+			oQhvANw/Y+NB0BX8rHDYwi1l6ZMBh29MQNmcRcj00FY=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0gbRPHvo4vHTNBe54/lzqsnZkUOk1nWA0Na+Yh78HvM=
+			oQhvANw/Y+NB0BX8rHDYwi1l6ZMBh29MQNmcRcj00FY=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfmntrX5R7/WXoee5rjpjMwIWcM0eVA5kbeCPLB+LPQ=
+			wJtbPCS8cu0SzYhapgEh6ddZ6luyNIFF6TeFBheA4T4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -10772,6 +10772,51 @@
           },
           {
             "kind": "Function",
+            "name": "getIDFromPath",
+            "printedName": "getIDFromPath(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.UInt8]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe16HexadecimalUtilsC13getIDFromPath4pathSays5UInt8VGSgSS_tFZ",
+            "mangledName": "$s5iDNIe16HexadecimalUtilsC13getIDFromPath4pathSays5UInt8VGSgSS_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "convertPathToHex",
             "printedName": "convertPathToHex(path:)",
             "children": [
@@ -10963,43 +11008,6 @@
             "declKind": "Func",
             "usr": "s:5iDNIe16HexadecimalUtilsC22convertIntToUInt8Array6enteroSays0G0VGSgSi_tFZ",
             "mangledName": "$s5iDNIe16HexadecimalUtilsC22convertIntToUInt8Array6enteroSays0G0VGSgSi_tFZ",
-            "moduleName": "iDNIe",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "convertIntToUInt8",
-            "printedName": "convertIntToUInt8(entero:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.UInt8?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5iDNIe16HexadecimalUtilsC17convertIntToUInt86enteros0G0VSgSi_tFZ",
-            "mangledName": "$s5iDNIe16HexadecimalUtilsC17convertIntToUInt86enteros0G0VSgSi_tFZ",
             "moduleName": "iDNIe",
             "static": true,
             "declAttributes": [
@@ -11422,7 +11430,7 @@
           {
             "kind": "Function",
             "name": "signTextDNIe",
-            "printedName": "signTextDNIe(accessKey:pin:datosFirma:certToUse:passport:paceKeyReference:tags:skipSecureElements:customDisplayMessage:completed:)",
+            "printedName": "signTextDNIe(accessKey:pin:datosFirma:signPadding:certToUse:passport:paceKeyReference:tags:skipSecureElements:customDisplayMessage:completed:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11446,6 +11454,13 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DNIeSingPadding",
+                "printedName": "iDNIe.DNIeSingPadding",
+                "hasDefaultArg": true,
+                "usr": "s:5iDNIe0A11SingPaddingO"
               },
               {
                 "kind": "TypeNominal",
@@ -11588,8 +11603,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5iDNIe14PassportReaderC08signTextA09accessKey3pin10datosFirma9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_S2SAA0A12CertificatesOSgAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewvW0OcSgyAT_AA0zC5ErrorOSgtctF",
-            "mangledName": "$s5iDNIe14PassportReaderC08signTextA09accessKey3pin10datosFirma9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_S2SAA0A12CertificatesOSgAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewvW0OcSgyAT_AA0zC5ErrorOSgtctF",
+            "usr": "s:5iDNIe14PassportReaderC08signTextA09accessKey3pin10datosFirma0D7Padding9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_S2SAA0a4SingK0OAA0A12CertificatesOSgAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewwX0OcSgyAW_AA011NFCPassportC5ErrorOSgtctF",
+            "mangledName": "$s5iDNIe14PassportReaderC08signTextA09accessKey3pin10datosFirma0D7Padding9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_S2SAA0a4SingK0OAA0A12CertificatesOSgAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewwX0OcSgyAW_AA011NFCPassportC5ErrorOSgtctF",
             "moduleName": "iDNIe",
             "declAttributes": [
               "AccessControl"
@@ -11599,7 +11614,7 @@
           {
             "kind": "Function",
             "name": "signDocumentDNIe",
-            "printedName": "signDocumentDNIe(accessKey:pin:document:certToUse:passport:paceKeyReference:tags:skipSecureElements:customDisplayMessage:completed:)",
+            "printedName": "signDocumentDNIe(accessKey:pin:document:signPadding:certToUse:passport:paceKeyReference:tags:skipSecureElements:customDisplayMessage:completed:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11623,6 +11638,13 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DNIeSingPadding",
+                "printedName": "iDNIe.DNIeSingPadding",
+                "hasDefaultArg": true,
+                "usr": "s:5iDNIe0A11SingPaddingO"
               },
               {
                 "kind": "TypeNominal",
@@ -11757,8 +11779,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5iDNIe14PassportReaderC012signDocumentA09accessKey3pin8document9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_SS10Foundation3URLVAA0A12CertificatesOAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewuV0OcSgyAV_AA011NFCPassportC5ErrorOSgtctF",
-            "mangledName": "$s5iDNIe14PassportReaderC012signDocumentA09accessKey3pin8document9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_SS10Foundation3URLVAA0A12CertificatesOAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewuV0OcSgyAV_AA011NFCPassportC5ErrorOSgtctF",
+            "usr": "s:5iDNIe14PassportReaderC012signDocumentA09accessKey3pin8document0D7Padding9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_SS10Foundation3URLVAA0a4SingJ0OAA0A12CertificatesOAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewvW0OcSgyAY_AA011NFCPassportC5ErrorOSgtctF",
+            "mangledName": "$s5iDNIe14PassportReaderC012signDocumentA09accessKey3pin8document0D7Padding9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_SS10Foundation3URLVAA0a4SingJ0OAA0A12CertificatesOAA16NFCPassportModelCSgs5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewvW0OcSgyAY_AA011NFCPassportC5ErrorOSgtctF",
             "moduleName": "iDNIe",
             "declAttributes": [
               "AccessControl"
@@ -11768,7 +11790,7 @@
           {
             "kind": "Function",
             "name": "signHashDNIe",
-            "printedName": "signHashDNIe(accessKey:pin:hash:digest:certToUse:passport:paceKeyReference:tags:skipSecureElements:customDisplayMessage:operacion:completed:)",
+            "printedName": "signHashDNIe(accessKey:pin:hash:digest:signPadding:certToUse:passport:paceKeyReference:tags:skipSecureElements:customDisplayMessage:operacion:completed:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11814,6 +11836,13 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DNIeSingPadding",
+                "printedName": "iDNIe.DNIeSingPadding",
+                "hasDefaultArg": true,
+                "usr": "s:5iDNIe0A11SingPaddingO"
               },
               {
                 "kind": "TypeNominal",
@@ -11954,8 +11983,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5iDNIe14PassportReaderC08signHashA09accessKey3pin4hash6digest9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9operacion9completedySS_SSSays5UInt8VGAsA0A12CertificatesOAA16NFCPassportModelCSgARSayAA11DataGroupIdOGSbSSSgAA07NFCViewvW0OcSgAA0A10OperationsOyAX_AA011NFCPassportC5ErrorOSgtctF",
-            "mangledName": "$s5iDNIe14PassportReaderC08signHashA09accessKey3pin4hash6digest9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9operacion9completedySS_SSSays5UInt8VGAsA0A12CertificatesOAA16NFCPassportModelCSgARSayAA11DataGroupIdOGSbSSSgAA07NFCViewvW0OcSgAA0A10OperationsOyAX_AA011NFCPassportC5ErrorOSgtctF",
+            "usr": "s:5iDNIe14PassportReaderC08signHashA09accessKey3pin4hash6digest0D7Padding9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9operacion9completedySS_SSSays5UInt8VGAtA0a4SingK0OAA0A12CertificatesOAA16NFCPassportModelCSgASSayAA11DataGroupIdOGSbSSSgAA07NFCViewwX0OcSgAA0A10OperationsOyA__AA011NFCPassportC5ErrorOSgtctF",
+            "mangledName": "$s5iDNIe14PassportReaderC08signHashA09accessKey3pin4hash6digest0D7Padding9certToUse8passport04paceG9Reference4tags18skipSecureElements20customDisplayMessage9operacion9completedySS_SSSays5UInt8VGAtA0a4SingK0OAA0A12CertificatesOAA16NFCPassportModelCSgASSayAA11DataGroupIdOGSbSSSgAA07NFCViewwX0OcSgAA0A10OperationsOyA__AA011NFCPassportC5ErrorOSgtctF",
             "moduleName": "iDNIe",
             "declAttributes": [
               "AccessControl"
@@ -12318,6 +12347,7 @@
                 "kind": "TypeNominal",
                 "name": "DNIeSingPadding",
                 "printedName": "iDNIe.DNIeSingPadding",
+                "hasDefaultArg": true,
                 "usr": "s:5iDNIe0A11SingPaddingO"
               },
               {
@@ -18689,6 +18719,13 @@
         "moduleName": "iDNIe"
       },
       {
+        "kind": "Import",
+        "name": "OpenSSL",
+        "printedName": "OpenSSL",
+        "declKind": "Import",
+        "moduleName": "iDNIe"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PkiUtils",
         "printedName": "PkiUtils",
@@ -19159,6 +19196,44 @@
           },
           {
             "kind": "Function",
+            "name": "getPubKey",
+            "printedName": "getPubKey(pubCertificate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecCertificate",
+                "printedName": "Security.SecCertificate",
+                "usr": "c:@T@SecCertificateRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC9getPubKey14pubCertificateSo03SecF3RefaSgSo0ihJ0a_tKFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC9getPubKey14pubCertificateSo03SecF3RefaSgSo0ihJ0a_tKFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getModulus",
             "printedName": "getModulus(publicKey:)",
             "children": [
@@ -19194,6 +19269,179 @@
             "declKind": "Func",
             "usr": "s:5iDNIe8PkiUtilsC10getModulus9publicKeySays5UInt8VGSgSo03SecG3Refa_tKFZ",
             "mangledName": "$s5iDNIe8PkiUtilsC10getModulus9publicKeySays5UInt8VGSgSo03SecG3Refa_tKFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getModulusPSS",
+            "printedName": "getModulusPSS(publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.UInt8]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC13getModulusPSS9publicKeySays5UInt8VGSgSo03SecH3Refa_tKFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC13getModulusPSS9publicKeySays5UInt8VGSgSo03SecH3Refa_tKFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getModulusFromPubCertificate",
+            "printedName": "getModulusFromPubCertificate(base64Cert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.UInt8]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC28getModulusFromPubCertificate10base64CertSays5UInt8VGSgSS_tKFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC28getModulusFromPubCertificate10base64CertSays5UInt8VGSgSS_tKFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getModulusSizeInBits",
+            "printedName": "getModulusSizeInBits(modulus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC20getModulusSizeInBits7modulusSiSays5UInt8VG_tKFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC20getModulusSizeInBits7modulusSiSays5UInt8VG_tKFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parsePublicSecKey",
+            "printedName": "parsePublicSecKey(publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(mod: Foundation.Data, exp: Foundation.Data)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC17parsePublicSecKey06publicG010Foundation4DataV3mod_AH3exptSo0fG3Refa_tKFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC17parsePublicSecKey06publicG010Foundation4DataV3mod_AH3exptSo0fG3Refa_tKFZ",
             "moduleName": "iDNIe",
             "static": true,
             "declAttributes": [
@@ -19723,8 +19971,164 @@
           },
           {
             "kind": "Function",
+            "name": "verificaPaddingPSS",
+            "printedName": "verificaPaddingPSS(message:encodedMessage:digestInfo:tamanoClave:modulus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC18verificaPaddingPSS7message14encodedMessage10digestInfo11tamanoClave7modulusSbSS_Says5UInt8VGALSiALtFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC18verificaPaddingPSS7message14encodedMessage10digestInfo11tamanoClave7modulusSbSS_Says5UInt8VGALSiALtFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "calculaPaddingPSS",
-            "printedName": "calculaPaddingPSS(hash:digestInfo:tamanoClave:)",
+            "printedName": "calculaPaddingPSS(hash:digestInfo:tamanoClave:modulus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe8PkiUtilsC17calculaPaddingPSS4hash10digestInfo11tamanoClave7modulusSays5UInt8VGAK_AKSiAKtFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC17calculaPaddingPSS4hash10digestInfo11tamanoClave7modulusSays5UInt8VGAK_AKSiAKtFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "calculaPaddingPKCS",
+            "printedName": "calculaPaddingPKCS(hash:digestInfo:tamanoClave:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19776,8 +20180,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5iDNIe8PkiUtilsC17calculaPaddingPSS4hash10digestInfo11tamanoClaveSays5UInt8VGAJ_AJSitFZ",
-            "mangledName": "$s5iDNIe8PkiUtilsC17calculaPaddingPSS4hash10digestInfo11tamanoClaveSays5UInt8VGAJ_AJSitFZ",
+            "usr": "s:5iDNIe8PkiUtilsC18calculaPaddingPKCS4hash10digestInfo11tamanoClaveSays5UInt8VGAJ_AJSitFZ",
+            "mangledName": "$s5iDNIe8PkiUtilsC18calculaPaddingPKCS4hash10digestInfo11tamanoClaveSays5UInt8VGAJ_AJSitFZ",
             "moduleName": "iDNIe",
             "static": true,
             "declAttributes": [
@@ -20224,61 +20628,6 @@
             "declKind": "Func",
             "usr": "s:5iDNIe8PkiUtilsC16getPemFromBase6412base64StringS2S_tFZ",
             "mangledName": "$s5iDNIe8PkiUtilsC16getPemFromBase6412base64StringS2S_tFZ",
-            "moduleName": "iDNIe",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getPKCS7FromSignature",
-            "printedName": "getPKCS7FromSignature(dataToSign:firma:base64PublicCert:base64CACert:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5iDNIe8PkiUtilsC21getPKCS7FromSignature10dataToSign5firma16base64PublicCert0L6CACertSSSg10Foundation4DataV_ALS2StFZ",
-            "mangledName": "$s5iDNIe8PkiUtilsC21getPKCS7FromSignature10dataToSign5firma16base64PublicCert0L6CACertSSSg10Foundation4DataV_ALS2StFZ",
             "moduleName": "iDNIe",
             "static": true,
             "declAttributes": [
@@ -37142,105 +37491,105 @@
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 2186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2204,
+      "offset": 2256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2266,
+      "offset": 2318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 3168,
+      "offset": 3220,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3199,
+      "offset": 3251,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 5535,
+      "offset": 5625,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 5566,
+      "offset": 5656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 8300,
+      "offset": 8467,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8331,
+      "offset": 8498,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 11170,
+      "offset": 11414,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 11201,
+      "offset": 11445,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 13729,
+      "offset": 14012,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 13760,
+      "offset": 14043,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 16274,
+      "offset": 16557,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 16305,
+      "offset": 16588,
       "length": 4,
       "value": "true"
     },
