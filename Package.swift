@@ -17,6 +17,9 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/Boilertalk/BigInt.swift.git", branch: "main"),
+        .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", branch: "master"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", exact: "1.6.0")
     ],
     targets: [
             // Targets are the basic building blocks of a package. A target can define a module or a test suite.

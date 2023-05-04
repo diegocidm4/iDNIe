@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-asn1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-asn1.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c43fef6dc0192ecf27c2fdef0f5957283adab337"
+      }
+    }
+  ],
+  "version" : 2
+}
