@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
-      "identity" : "swift-asn1",
+      "identity" : "bigint.swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-asn1.git",
+      "location" : "https://github.com/Boilertalk/BigInt.swift.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "c43fef6dc0192ecf27c2fdef0f5957283adab337"
+        "branch" : "master",
+        "revision" : "4c25294ed1b8c816f12241cb4a66dbf3d571b8d2"
+      }
+    },
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "19b3c3ceed117c5cc883517c4e658548315ba70b",
+        "version" : "1.6.0"
+      }
+    },
+    {
+      "identity" : "openssl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/OpenSSL.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "9d8504027cf8a279a2f258ee4dd88b85db9de9db"
       }
     }
   ],
