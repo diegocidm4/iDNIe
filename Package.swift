@@ -27,16 +27,5 @@ let package = Package(
             .binaryTarget(
                 name: "iDNIe",
                 path: "./Sources/iDNIe.xcframework")
-            
-/*
-            .target(
-                name: "iDNIe",
-                dependencies: [
-                    .product(name: "BigInt", package: "BigInt.swift"),
-                    .product(name: "OpenSSL", package: "OpenSSL"),
-                    .product(name: "CryptoSwift", package: "CryptoSwift")
-                ]
-            )
- */
         ]
 )
