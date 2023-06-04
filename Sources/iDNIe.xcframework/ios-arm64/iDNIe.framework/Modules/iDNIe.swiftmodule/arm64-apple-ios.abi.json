@@ -16844,8 +16844,7 @@
             "mangledName": "$s5iDNIeAAVABycfc",
             "moduleName": "iDNIe",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
