@@ -11293,7 +11293,7 @@
           {
             "kind": "Function",
             "name": "readPassport",
-            "printedName": "readPassport(accessKey:paceKeyReference:tags:skipSecureElements:customDisplayMessage:completed:)",
+            "printedName": "readPassport(accessKey:paceKeyReference:tags:skipSecureElements:customDisplayMessage:leeCertificadosPublicos:completed:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11371,6 +11371,13 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(iDNIe.NFCPassportModel?, iDNIe.NFCPassportReaderError?) -> ()",
@@ -11419,8 +11426,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5iDNIe14PassportReaderC04readB09accessKey04paceF9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_s5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewnO0OcSgyAA16NFCPassportModelCSg_AA0vC5ErrorOSgtctF",
-            "mangledName": "$s5iDNIe14PassportReaderC04readB09accessKey04paceF9Reference4tags18skipSecureElements20customDisplayMessage9completedySS_s5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewnO0OcSgyAA16NFCPassportModelCSg_AA0vC5ErrorOSgtctF",
+            "usr": "s:5iDNIe14PassportReaderC04readB09accessKey04paceF9Reference4tags18skipSecureElements20customDisplayMessage23leeCertificadosPublicos9completedySS_s5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewnO0OcSgSbyAA16NFCPassportModelCSg_AA0yC5ErrorOSgtctF",
+            "mangledName": "$s5iDNIe14PassportReaderC04readB09accessKey04paceF9Reference4tags18skipSecureElements20customDisplayMessage23leeCertificadosPublicos9completedySS_s5UInt8VSayAA11DataGroupIdOGSbSSSgAA07NFCViewnO0OcSgSbyAA16NFCPassportModelCSg_AA0yC5ErrorOSgtctF",
             "moduleName": "iDNIe",
             "declAttributes": [
               "AccessControl"
@@ -37490,105 +37497,119 @@
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2186,
+      "offset": 1984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2256,
+      "offset": 2369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2318,
+      "offset": 2431,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 3220,
+      "offset": 3333,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3251,
+      "offset": 3364,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 5779,
+      "offset": 5839,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 5810,
+      "offset": 5870,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 8774,
+      "offset": 8681,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8805,
+      "offset": 8712,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 11873,
+      "offset": 11628,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 11904,
+      "offset": 11659,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 14926,
+      "offset": 14226,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 14957,
+      "offset": 14257,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 17623,
+      "offset": 16771,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 17654,
+      "offset": 16802,
       "length": 4,
       "value": "true"
     },
