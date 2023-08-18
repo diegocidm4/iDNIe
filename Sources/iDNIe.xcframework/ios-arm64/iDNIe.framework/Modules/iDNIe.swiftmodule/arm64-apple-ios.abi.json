@@ -25156,6 +25156,132 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIntegridadDocumento",
+            "printedName": "getIntegridadDocumento()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe05DatosA0C22getIntegridadDocumentoSbSgyF",
+            "mangledName": "$s5iDNIe05DatosA0C22getIntegridadDocumentoSbSgyF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIntegridadDocumento",
+            "printedName": "setIntegridadDocumento(integridadDocumento:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe05DatosA0C22setIntegridadDocumento010integridadE0ySbSg_tF",
+            "mangledName": "$s5iDNIe05DatosA0C22setIntegridadDocumento010integridadE0ySbSg_tF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getpemCertificadoFirmaSOD",
+            "printedName": "getpemCertificadoFirmaSOD()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe05DatosA0C25getpemCertificadoFirmaSODSSSgyF",
+            "mangledName": "$s5iDNIe05DatosA0C25getpemCertificadoFirmaSODSSSgyF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setpemCertificadoFirmaSOD",
+            "printedName": "setpemCertificadoFirmaSOD(pemCertificadoFirmaSOD:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe05DatosA0C25setpemCertificadoFirmaSOD03pemdeF0ySSSg_tF",
+            "mangledName": "$s5iDNIe05DatosA0C25setpemCertificadoFirmaSOD03pemdeF0ySSSg_tF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",

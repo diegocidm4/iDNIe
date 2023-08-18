@@ -820,6 +820,10 @@ public class DatosCertificado {
   public func setcertificadoCA(certificadoCA: DatosCertificado?)
   public func getPassport() -> NFCPassportModel?
   public func setPassport(passport: NFCPassportModel?)
+  public func getIntegridadDocumento() -> Swift.Bool?
+  public func setIntegridadDocumento(integridadDocumento: Swift.Bool?)
+  public func getpemCertificadoFirmaSOD() -> Swift.String?
+  public func setpemCertificadoFirmaSOD(pemCertificadoFirmaSOD: Swift.String?)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DNIeUtils {
