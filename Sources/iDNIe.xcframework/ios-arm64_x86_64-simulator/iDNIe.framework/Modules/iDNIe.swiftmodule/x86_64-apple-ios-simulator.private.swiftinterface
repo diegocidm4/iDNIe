@@ -989,6 +989,7 @@ public class CardAccess {
   public static func parseaCDF(passport: NFCPassportModel, data: [Swift.UInt8]) throws -> NFCPassportModel
   public static func parseaPrKDF(passport: NFCPassportModel, data: [Swift.UInt8]) throws -> NFCPassportModel
   public static func parseaCertificado(asn1Array: [ASN1Item]) throws -> DatosCertificado
+  public static func convierteEnFecha(strDate: Swift.String, withFormat format: Swift.String = "dd/MM/yyyy") -> Foundation.Date?
   @objc deinit
 }
 public class PassportUtils {

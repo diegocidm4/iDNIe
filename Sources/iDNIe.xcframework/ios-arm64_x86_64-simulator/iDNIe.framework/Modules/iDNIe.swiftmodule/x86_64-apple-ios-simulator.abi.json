@@ -28745,6 +28745,50 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convierteEnFecha",
+            "printedName": "convierteEnFecha(strDate:withFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe14ASN1ParseUtilsC16convierteEnFecha7strDate10withFormat10Foundation0I0VSgSS_SStFZ",
+            "mangledName": "$s5iDNIe14ASN1ParseUtilsC16convierteEnFecha7strDate10withFormat10Foundation0I0VSgSS_SStFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -38718,6 +38762,13 @@
       "offset": 1321,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/ExtensionDNIe\/Parser\/ASN1ParseUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 7123,
+      "length": 12,
+      "value": "\"dd\/MM\/yyyy\""
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/DataGroups\/ChipAuthenticationInfo.swift",

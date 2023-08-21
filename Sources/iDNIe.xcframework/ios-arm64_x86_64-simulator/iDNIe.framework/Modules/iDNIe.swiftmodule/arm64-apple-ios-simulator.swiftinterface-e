@@ -989,6 +989,7 @@ public class CardAccess {
   public static func parseaCDF(passport: iDNIe.NFCPassportModel, data: [Swift.UInt8]) throws -> iDNIe.NFCPassportModel
   public static func parseaPrKDF(passport: iDNIe.NFCPassportModel, data: [Swift.UInt8]) throws -> iDNIe.NFCPassportModel
   public static func parseaCertificado(asn1Array: [iDNIe.ASN1Item]) throws -> iDNIe.DatosCertificado
+  public static func convierteEnFecha(strDate: Swift.String, withFormat format: Swift.String = "dd/MM/yyyy") -> Foundation.Date?
   @objc deinit
 }
 public class PassportUtils {
