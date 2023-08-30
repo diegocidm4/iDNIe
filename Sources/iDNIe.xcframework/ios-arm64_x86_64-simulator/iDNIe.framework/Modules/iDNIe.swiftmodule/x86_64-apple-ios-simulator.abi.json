@@ -25423,6 +25423,43 @@
           },
           {
             "kind": "Function",
+            "name": "nacimientoToDate",
+            "printedName": "nacimientoToDate(cadena:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe11StringUtilsC16nacimientoToDate6cadena10Foundation0F0VSgSS_tFZ",
+            "mangledName": "$s5iDNIe11StringUtilsC16nacimientoToDate6cadena10Foundation0F0VSgSS_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "stringToDate",
             "printedName": "stringToDate(cadena:formato:)",
             "children": [
@@ -38766,7 +38803,7 @@
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/ExtensionDNIe\/Parser\/ASN1ParseUtils.swift",
       "kind": "StringLiteral",
-      "offset": 7123,
+      "offset": 7181,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },

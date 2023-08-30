@@ -833,6 +833,7 @@ public class DatosCertificado {
 @_hasMissingDesignatedInitializers public class StringUtils {
   public static func localizedString(forKey key: Swift.String) -> Swift.String
   public static func localizedStringFramework(forKey key: Swift.String) -> Swift.String
+  public static func nacimientoToDate(cadena: Swift.String) -> Foundation.Date?
   public static func stringToDate(cadena: Swift.String, formato: Swift.String) -> Foundation.Date?
   public static func formateaFecha(fecha: Foundation.Date, formato: Swift.String) -> Swift.String?
   public static func UCTStringToString(utcString: Swift.String, formato: Swift.String) -> Swift.String
