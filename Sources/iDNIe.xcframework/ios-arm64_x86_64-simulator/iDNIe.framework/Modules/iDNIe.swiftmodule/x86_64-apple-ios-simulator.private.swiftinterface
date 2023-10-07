@@ -712,6 +712,15 @@ public class DataGroup1 : DataGroup {
   }
   @objc deinit
 }
+public class DatosICAO {
+  public var DG1: Swift.String?
+  public var DG2: Swift.String?
+  public var DG13: Swift.String?
+  public var SOD: Swift.String?
+  public init()
+  public func inicializa()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup7 : DataGroup {
   public var imageData: [Swift.UInt8] {
@@ -824,6 +833,10 @@ public class DatosCertificado {
   public func setIntegridadDocumento(integridadDocumento: Swift.Bool?)
   public func getpemCertificadoFirmaSOD() -> Swift.String?
   public func setpemCertificadoFirmaSOD(pemCertificadoFirmaSOD: Swift.String?)
+  public func getdatosICAO() -> DatosICAO?
+  public func setdatosICAO(datosICAO: DatosICAO?)
+  public func getCan() -> Swift.String?
+  public func setCan(can: Swift.String?)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DNIeUtils {
