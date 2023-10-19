@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		I9fwckv1G9ByvnmGftN0/PMv+1s=
+		rMFZSq/HrQMk0XLUESfiAClIMP4=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DadbISSJhv/UPzuwhCR8oA2+Kwo=
+		8QMBO4Rs5dYVXReeHggkohAqBoU=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DadbISSJhv/UPzuwhCR8oA2+Kwo=
+		8QMBO4Rs5dYVXReeHggkohAqBoU=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sjng0OBTRXQCesDnZNETqkMgXh4=
+		CZQ4AD3Qqsau3v3FxlwBJJbhwrA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/MpqtAuWYR+7ph7qCPwQEB4/dcat/Yn7dWab7gFrWUs=
+			BqyrzIUBxp9uZR5dgJ/pjX3TwWtZnAPENvlDuvg8CjA=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eyo3hTYVkd5pRmbLR2P3/hqOXHvVFeMb/mJk0jEDTeM=
+			1Lo4Xmy/pmgrzxglpqeGxmkpigiKALZP+sQjZsDeGnw=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eyo3hTYVkd5pRmbLR2P3/hqOXHvVFeMb/mJk0jEDTeM=
+			1Lo4Xmy/pmgrzxglpqeGxmkpigiKALZP+sQjZsDeGnw=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KL2ks23GddiO1BwPhJvfSJAaHTiQms92izm1XMhiauc=
+			C4SLJgrUrtrUxMDZfDgssd1TY8EK9131NvdF5i1Eyi0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

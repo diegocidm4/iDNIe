@@ -841,6 +841,8 @@ public class DatosCertificado {
 }
 @_hasMissingDesignatedInitializers public class DNIeUtils {
   public static func obtenerTodosDatosDNIe(dnie: NFCPassportModel) -> DatosDNIe
+  public static func convertImageToBase64(image: UIKit.UIImage) -> Swift.String
+  public static func convertBase64ToImage(imageString: Swift.String) -> UIKit.UIImage
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class StringUtils {

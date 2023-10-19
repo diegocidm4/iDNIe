@@ -25974,6 +25974,66 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertImageToBase64",
+            "printedName": "convertImageToBase64(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe0A5UtilsC20convertImageToBase645imageSSSo7UIImageC_tFZ",
+            "mangledName": "$s5iDNIe0A5UtilsC20convertImageToBase645imageSSSo7UIImageC_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertBase64ToImage",
+            "printedName": "convertBase64ToImage(imageString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe0A5UtilsC20convertBase64ToImage11imageStringSo7UIImageCSS_tFZ",
+            "mangledName": "$s5iDNIe0A5UtilsC20convertBase64ToImage11imageStringSo7UIImageCSS_tFZ",
+            "moduleName": "iDNIe",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
