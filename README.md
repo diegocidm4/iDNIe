@@ -35,6 +35,7 @@ Utilizando can para establecer canal seguro.
         })
     }```
 
+
 Utilizando mrz para establecer canal seguro.    
 ```Swift
         passportReader.readPassport(accessKey: mrzKey, paceKeyReference: PACEHandler.MRZ_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
