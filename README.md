@@ -23,33 +23,35 @@ Esta librería tiene las siguientes dependencias:
 Esta ofrece las siguientes funcionalidades:
 - Lectura de datos públicos del DNIe o cualquier documento electrónico de identidad:
 
-Utilizando can para establecer canal seguro.
-        passportReader.readPassport(accessKey: can, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in  return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
-        }, completed: { (passport, error) in
-            if let passport = passport {            
-                //passport contiene todos los datos del DNIe
-            } else {
-                //procesamos error
-                print("Error: \(error?.localizedDescription)")
+        - Utilizando can para establecer canal seguro.
+        ```Swift
+                passportReader.readPassport(accessKey: can, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in  return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
+                }, completed: { (passport, error) in
+                    if let passport = passport {            
+                        //passport contiene todos los datos del DNIe
+                    } else {
+                        //procesamos error
+                        print("Error: \(error?.localizedDescription)")
+                    }
+                })
             }
-        })
-    }
+        ```
 
 
-
-Utilizando mrz para establecer canal seguro.    
-        passportReader.readPassport(accessKey: mrzKey, paceKeyReference: PACEHandler.MRZ_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
-        return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
-        }, leeCertificadosPublicos: false, completed: { (passport, error) in
-            if let passport = passport {            
-                //passport contiene todos los datos del DNIe
-            } else {
-                //procesamos error
-                print("Error: \(error?.localizedDescription)")
-            }
-        })
-    }   
-
+        - Utilizando mrz para establecer canal seguro.    
+        ```Swift
+                passportReader.readPassport(accessKey: mrzKey, paceKeyReference: PACEHandler.MRZ_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
+                return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
+                }, leeCertificadosPublicos: false, completed: { (passport, error) in
+                    if let passport = passport {            
+                        //passport contiene todos los datos del DNIe
+                    } else {
+                        //procesamos error
+                        print("Error: \(error?.localizedDescription)")
+                    }
+                })
+            }   
+        ```
 - Firma de un texto en formato String con el certificado del DNIe que se le indique en certToUse:
         passportReader.signTextDNIe(accessKey: can, pin: pinDNIe, datosFirma: textoFirmar, certToUse: .FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
             return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
