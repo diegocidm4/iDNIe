@@ -23,37 +23,38 @@ Esta librería tiene las siguientes dependencias:
 Esta ofrece las siguientes funcionalidades:
 ### Lectura de datos públicos del DNIe o cualquier documento electrónico de identidad:
 
-        #### Utilizando can para establecer canal seguro.
-        ```Swift
-                passportReader.readPassport(accessKey: can, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in  return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
-                }, completed: { (passport, error) in
-                    if let passport = passport {            
-                        //passport contiene todos los datos del DNIe
-                    } else {
-                        //procesamos error
-                        print("Error: \(error?.localizedDescription)")
-                    }
-                })
+#### Utilizando can para establecer canal seguro.
+```Swift
+        passportReader.readPassport(accessKey: can, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in  return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
+        }, completed: { (passport, error) in
+            if let passport = passport {            
+                //passport contiene todos los datos del DNIe
+            } else {
+                //procesamos error
+                print("Error: \(error?.localizedDescription)")
             }
-        ```
+        })
+    }
+```
 
 
-        #### Utilizando mrz para establecer canal seguro.    
-        ```Swift
-                passportReader.readPassport(accessKey: mrzKey, paceKeyReference: PACEHandler.MRZ_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
-                return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
-                }, leeCertificadosPublicos: false, completed: { (passport, error) in
-                    if let passport = passport {            
-                        //passport contiene todos los datos del DNIe
-                    } else {
-                        //procesamos error
-                        print("Error: \(error?.localizedDescription)")
-                    }
-                })
-            }   
-        ```
+#### Utilizando mrz para establecer canal seguro.    
+```Swift
+        passportReader.readPassport(accessKey: mrzKey, paceKeyReference: PACEHandler.MRZ_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
+        return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
+        }, leeCertificadosPublicos: false, completed: { (passport, error) in
+            if let passport = passport {            
+                //passport contiene todos los datos del DNIe
+            } else {
+                //procesamos error
+                print("Error: \(error?.localizedDescription)")
+            }
+        })
+    }   
+```
 ### Firma de un texto en formato String con el certificado del DNIe que se le indique en certToUse:
-        passportReader.signTextDNIe(accessKey: can, pin: pinDNIe, datosFirma: textoFirmar, certToUse: .FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
+    ```Swift
+    passportReader.signTextDNIe(accessKey: can, pin: pinDNIe, datosFirma: textoFirmar, certToUse: .FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
             return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
         }, completed: { (pass, error) in
             if let passport = passport {            
@@ -64,9 +65,11 @@ Esta ofrece las siguientes funcionalidades:
             }
         })
     }
+    ```
 
-- Firma el hash del documento pasado como parámetro en document con el certificado del DNIe que se le indique en certToUse:
-        passportReader.signDocumentDNIe(accessKey: can, pin: pinDNIe, document: urlDocumento, certToUse: .FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
+### Firma el hash del documento pasado como parámetro en document con el certificado del DNIe que se le indique en certToUse:
+    ```Swift
+    passportReader.signDocumentDNIe(accessKey: can, pin: pinDNIe, document: urlDocumento, certToUse: .FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
             return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
         }, completed: { (pass, error) in
             if let passport = passport {            
@@ -77,9 +80,11 @@ Esta ofrece las siguientes funcionalidades:
             }
         })
     }
+    ```
 
-- Firma el hash y el digest pasados como parámetros con el certificado del DNIe que se le indique en certToUse:
-        passportReader.signHashDNIe(accessKey: can, pin: pinDNIe, hash: hash, digest: digest, certToUse: DNIeCertificates.FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
+### Firma el hash y el digest pasados como parámetros con el certificado del DNIe que se le indique en certToUse:
+    ```Swift
+    passportReader.signHashDNIe(accessKey: can, pin: pinDNIe, hash: hash, digest: digest, certToUse: DNIeCertificates.FIRMA, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
                 return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
             }, operacion: .FIRMA_DOCUMENTO, completed: { (passport, error) in
             if let passport = passport {            
@@ -90,9 +95,11 @@ Esta ofrece las siguientes funcionalidades:
             }
         })
     }
+    ```
 
-- Establece los canales de conexión necesarios para realizar operaciones de firma con el DNIe dejándolos abiertos a la espera de la petición de firma:
-            passportReader.authenticationDNIeOpenSession(accessKey: can, pin: pinDNIe, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
+### Establece los canales de conexión necesarios para realizar operaciones de firma con el DNIe dejándolos abiertos a la espera de la petición de firma:
+    ```Swift
+        passportReader.authenticationDNIeOpenSession(accessKey: can, pin: pinDNIe, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, tags: [], skipSecureElements: true, customDisplayMessage: { (displayMessage) in
                 return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
             }, completed: { (pass, error) in
             if let passport = passport {            
@@ -103,10 +110,12 @@ Esta ofrece las siguientes funcionalidades:
             }
         })
     }
-
-- Firma el hash y el digest pasados como parámetros con el certificado de autenticación del DNIe:
-        passportReader.signChallengeDNIe(hash: hash, digest: digest, signPadding: .PKCS, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, customDisplayMessage: { (displayMessage) in
-                return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
+    ```
+    
+### Firma el hash y el digest pasados como parámetros con el certificado de autenticación del DNIe:
+    ```Swift
+    passportReader.signChallengeDNIe(hash: hash, digest: digest, signPadding: .PKCS, passport: passport, paceKeyReference: PACEHandler.CAN_PACE_KEY_REFERENCE, customDisplayMessage: { (displayMessage) in
+            return NFCUtils.customDisplayMessage(displayMessage: displayMessage)
             }, completed: { (passport, error) in
             if let passport = passport {            
                 //passport.signedMessage contiene los datos firmados
@@ -116,7 +125,7 @@ Esta ofrece las siguientes funcionalidades:
             }
         })
     }
-
+    ```
 
 ## Instalación
 
