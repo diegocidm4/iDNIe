@@ -100,6 +100,12 @@
                 "mangledName": "$s5iDNIe13DataGroupHashV2idSSvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -185,6 +191,12 @@
                 "mangledName": "$s5iDNIe13DataGroupHashV03sodD0SSvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -270,6 +282,12 @@
                 "mangledName": "$s5iDNIe13DataGroupHashV08computedD0SSvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -355,6 +373,12 @@
                 "mangledName": "$s5iDNIe13DataGroupHashV5matchSbvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1269,6 +1293,10 @@
                 "mangledName": "$s5iDNIe15SecureMessagingC0aB7ChannelSbvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5754,12 +5782,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Error]",
+                "printedName": "[any Swift.Error]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -5786,12 +5814,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Error]",
+                    "printedName": "[any Swift.Error]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -6264,6 +6292,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC8authCertAA07DigitalE0CSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6374,6 +6408,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC8signCertAA07DigitalE0CSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6484,6 +6524,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC7dgpCertAA07DigitalE0CSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6594,6 +6640,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC18CAComponenteBase64SSSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6704,6 +6756,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC11CAComponent10Foundation4DataVSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6814,6 +6872,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC18CAIntermediaBase64SSSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6924,6 +6988,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC12CAIntermedia10Foundation4DataVSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7010,6 +7080,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC7versionSivM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7144,6 +7220,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC7rnd_ifdSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7278,6 +7360,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC7rnd_iccSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7412,6 +7500,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC4kiccSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7546,6 +7640,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC4kifdSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7680,6 +7780,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC8chipinfoSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7814,6 +7920,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC4kencSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7948,6 +8060,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC4kmacSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8082,6 +8200,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC3sscSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8216,6 +8340,12 @@
                 "mangledName": "$s5iDNIe16NFCPassportModelC13signedMessageSays5UInt8VGSgvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10481,6 +10611,12 @@
                 "mangledName": "$s5iDNIe9DataGroupC13datagroupTypeAA0bC2IdOvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available",
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11189,6 +11325,10 @@
                 "mangledName": "$s5iDNIe14PassportReaderC32passiveAuthenticationUsesOpenSSLSbvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12543,7 +12683,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -21747,6 +21887,10 @@
                 "mangledName": "$s5iDNIe12ResponseAPDUV4dataSays5UInt8VGvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -21832,6 +21976,10 @@
                 "mangledName": "$s5iDNIe12ResponseAPDUV3sw1s5UInt8VvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -21917,6 +22065,10 @@
                 "mangledName": "$s5iDNIe12ResponseAPDUV3sw2s5UInt8VvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -25908,6 +26060,85 @@
             "declKind": "Func",
             "usr": "s:5iDNIe05DatosA0C6setCan3canySSSg_tF",
             "mangledName": "$s5iDNIe05DatosA0C6setCan3canySSSg_tF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "geterroresVerificacion",
+            "printedName": "geterroresVerificacion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any Swift.Error]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any Swift.Error]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe05DatosA0C22geterroresVerificacionSays5Error_pGSgyF",
+            "mangledName": "$s5iDNIe05DatosA0C22geterroresVerificacionSays5Error_pGSgyF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "seterroresVerificacion",
+            "printedName": "seterroresVerificacion(erroresVerificacion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any Swift.Error]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any Swift.Error]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe05DatosA0C22seterroresVerificacion07erroresD0ySays5Error_pGSg_tF",
+            "mangledName": "$s5iDNIe05DatosA0C22seterroresVerificacion07erroresD0ySays5Error_pGSg_tF",
             "moduleName": "iDNIe",
             "declAttributes": [
               "AccessControl"
@@ -32148,6 +32379,10 @@
                 "mangledName": "$s5iDNIe10BACHandlerC5ksencSays5UInt8VGvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -32258,6 +32493,10 @@
                 "mangledName": "$s5iDNIe10BACHandlerC5ksmacSays5UInt8VGvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -32368,6 +32607,10 @@
                 "mangledName": "$s5iDNIe10BACHandlerC4kifdSays5UInt8VGvM",
                 "moduleName": "iDNIe",
                 "implicit": true,
+                "intro_iOS": "13",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -35883,6 +36126,7 @@
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<Element>",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -36401,48 +36645,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -36488,39 +36723,48 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "name": "Regions",
+                "printedName": "Regions",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
                   }
                 ]
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
           }
         ]
       },
@@ -36897,6 +37141,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -38152,28 +38397,28 @@
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/SimpleASN1DumpParser.swift",
@@ -38285,7 +38530,7 @@
       "kind": "IntegerLiteral",
       "offset": 1484,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PACEHandler.swift",
@@ -38313,7 +38558,7 @@
       "kind": "IntegerLiteral",
       "offset": 1691,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PACEHandler.swift",

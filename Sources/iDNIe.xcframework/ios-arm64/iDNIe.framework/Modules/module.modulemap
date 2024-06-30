@@ -1,7 +1,7 @@
 framework module iDNIe {
   umbrella header "iDNIe.h"
-
   export *
+
   module * { export * }
 }
 

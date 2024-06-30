@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/iDNIe-Swift.h</key>
 		<data>
-		bkUowXJWLMmfw0zdS5W8nQcD8k0=
+		/G3gSj41SlSJmKwfem32Yzflq4g=
 		</data>
 		<key>Headers/iDNIe.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s+W6eApWXQySJZ6gK1gaGPAJVrs=
+		+Y54N8omxvSgcjIJ045a29ixOSk=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		rMFZSq/HrQMk0XLUESfiAClIMP4=
+		Q7bVLQeSlOZNxNb0zm+Xt4juMzE=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8QMBO4Rs5dYVXReeHggkohAqBoU=
+		M/eiWbSrEZdumJnJT7uNThmUtS8=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		iTW57sRi8TaVp2X1jqnObncjA9I=
+		Y4Kmku22+bpeVdtvQ2wYJ6V29io=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8QMBO4Rs5dYVXReeHggkohAqBoU=
+		M/eiWbSrEZdumJnJT7uNThmUtS8=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CZQ4AD3Qqsau3v3FxlwBJJbhwrA=
+		UyHMXvVvAi8R81xPEoDbAc+4xPc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		qkafiXlT5AlM9l7E09AmHE2d5PA=
+		gMiIwfc5Bflem4yAt994EfhbWZ4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1cChQp3MRoffQhuFcZm/FhzQ1fc7SNj2vthE73z5g0=
+			9/UBF8uxE7BhyXtdoaVgIDTyT3Bywa147vYP+oag/BY=
 			</data>
 		</dict>
 		<key>Headers/iDNIe.h</key>
@@ -72,42 +72,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BqyrzIUBxp9uZR5dgJ/pjX3TwWtZnAPENvlDuvg8CjA=
+			m9XNOHgl3XY+zQ3wJRsga0L3LIRhbrKnjPuwlK67pCs=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Lo4Xmy/pmgrzxglpqeGxmkpigiKALZP+sQjZsDeGnw=
+			cwpFdELrhQ3OIxV/8daR0weKSKVbS86HstuTo3QSqjg=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kxIXANnAX3l0kdrpVAzcNBKD+as0ApcOfTLqGQaDdp4=
+			ftEZ+5QXjgUCfCDel/GBreT2a8zm7Aj8FlgIr0qpsZg=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Lo4Xmy/pmgrzxglpqeGxmkpigiKALZP+sQjZsDeGnw=
+			cwpFdELrhQ3OIxV/8daR0weKSKVbS86HstuTo3QSqjg=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4SLJgrUrtrUxMDZfDgssd1TY8EK9131NvdF5i1Eyi0=
+			H1BnO+7TTLewMJ3tKypozHBtWeibEGVp6kDhhAF/C10=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSH5jnCtOmHmwLaFjGckZuUWxJV5rt1gyXgvSsF3fkI=
+			2DcejVrnkxSmi/VwO0UlHliqw+FuVyjV29Mn1Z4Qeak=
 			</data>
 		</dict>
 	</dict>
