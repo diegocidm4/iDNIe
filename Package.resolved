@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Boilertalk/BigInt.swift.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "4c25294ed1b8c816f12241cb4a66dbf3d571b8d2"
+        "revision" : "fd9b2ebff53e7fd211a7d2b2ea682db300a8571b",
+        "version" : "1.0.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/krzyzanowskim/OpenSSL.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "9d8504027cf8a279a2f258ee4dd88b85db9de9db"
+        "revision" : "7137604ef4bffe1ae1beee8212c561134582f7ff",
+        "version" : "1.1.2300"
       }
     }
   ],
