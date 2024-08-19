@@ -24190,6 +24190,27 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convierteDatosDnie",
+            "printedName": "convierteDatosDnie()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatosDNIe",
+                "printedName": "iDNIe.DatosDNIe",
+                "usr": "s:5iDNIe05DatosA0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5iDNIe16DatosCertificadoC09convierteB4DnieAA0bA0CyF",
+            "mangledName": "$s5iDNIe16DatosCertificadoC09convierteB4DnieAA0bA0CyF",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -24910,6 +24931,252 @@
         "name": "DatosDNIe",
         "printedName": "DatosDNIe",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatosDNIe",
+                "printedName": "iDNIe.DatosDNIe",
+                "usr": "s:5iDNIe05DatosA0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5iDNIe05DatosA0CACycfc",
+            "mangledName": "$s5iDNIe05DatosA0CACycfc",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nif:nombreCompleto:nombre:apellido1:apellido2:firma:imagen:fechaNacimiento:provinciaNacimiento:municipioNacimiento:nombrePadre:nombreMadre:fechaValidez:emisor:nacionalidad:sexo:direccion:provinciaActual:municipioActual:numSoporte:certificadoAutenticacion:certificadoFirma:certificadoCA:integridadDocumento:pemCertificadoFirmaSOD:can:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatosDNIe",
+                "printedName": "iDNIe.DatosDNIe",
+                "usr": "s:5iDNIe05DatosA0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iDNIe.DatosCertificado?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatosCertificado",
+                    "printedName": "iDNIe.DatosCertificado",
+                    "usr": "s:5iDNIe16DatosCertificadoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iDNIe.DatosCertificado?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatosCertificado",
+                    "printedName": "iDNIe.DatosCertificado",
+                    "usr": "s:5iDNIe16DatosCertificadoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iDNIe.DatosCertificado?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatosCertificado",
+                    "printedName": "iDNIe.DatosCertificado",
+                    "usr": "s:5iDNIe16DatosCertificadoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5iDNIe05DatosA0C3nif14nombreCompleto0D09apellido19apellido25firma6imagen15fechaNacimiento09provinciaK009municipioK00D5Padre0D5Madre0J7Validez6emisor12nacionalidad4sexo9direccion0L6Actual0mU010numSoporte24certificadoAutenticacion0X5Firma0X2CA19integridadDocumento014pemCertificadoZ3SOD3canACSS_S4SSo7UIImageCA3_S13SAA0B11CertificadoCSgA6_A6_SbSgSSSgA8_tcfc",
+            "mangledName": "$s5iDNIe05DatosA0C3nif14nombreCompleto0D09apellido19apellido25firma6imagen15fechaNacimiento09provinciaK009municipioK00D5Padre0D5Madre0J7Validez6emisor12nacionalidad4sexo9direccion0L6Actual0mU010numSoporte24certificadoAutenticacion0X5Firma0X2CA19integridadDocumento014pemCertificadoZ3SOD3canACSS_S4SSo7UIImageCA3_S13SAA0B11CertificadoCSgA6_A6_SbSgSSSgA8_tcfc",
+            "moduleName": "iDNIe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Function",
             "name": "getNif",
@@ -26632,8 +26899,7 @@
         "moduleName": "iDNIe",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",

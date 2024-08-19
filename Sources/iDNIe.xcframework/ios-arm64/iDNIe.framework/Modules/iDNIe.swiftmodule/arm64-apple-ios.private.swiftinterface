@@ -779,6 +779,7 @@ public class DatosCertificado {
   public var email: Swift.String
   public init()
   public func inicializa()
+  public func convierteDatosDnie() -> DatosDNIe
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class InternalAuthentication {
@@ -789,7 +790,9 @@ public class DatosCertificado {
   public var fin: [Swift.UInt8]?
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class DatosDNIe {
+public class DatosDNIe {
+  public init()
+  public init(nif: Swift.String, nombreCompleto: Swift.String, nombre: Swift.String, apellido1: Swift.String, apellido2: Swift.String, firma: UIKit.UIImage, imagen: UIKit.UIImage, fechaNacimiento: Swift.String, provinciaNacimiento: Swift.String, municipioNacimiento: Swift.String, nombrePadre: Swift.String, nombreMadre: Swift.String, fechaValidez: Swift.String, emisor: Swift.String, nacionalidad: Swift.String, sexo: Swift.String, direccion: Swift.String, provinciaActual: Swift.String, municipioActual: Swift.String, numSoporte: Swift.String, certificadoAutenticacion: DatosCertificado?, certificadoFirma: DatosCertificado?, certificadoCA: DatosCertificado?, integridadDocumento: Swift.Bool?, pemCertificadoFirmaSOD: Swift.String?, can: Swift.String?)
   public func getNif() -> Swift.String?
   public func setNif(nif: Swift.String)
   public func getNombreCompleto() -> Swift.String?
