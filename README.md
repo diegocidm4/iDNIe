@@ -139,7 +139,23 @@ dependencies: [
 ]
 ```
 
-Después de esto, podrás importarla en tus ficheros `.swift`.
+### CocoaPods
+
+iDNIe.swift se distribuye a través de [CocoaPods](http://cocoapods.org). Simplemente añade esta línea en tu fichero Podfile:
+
+```ruby
+use_frameworks!
+pod 'iDNIe'
+```
+
+Después de esto, ejecuta el siguiente comando:
+
+```bash
+pod install
+```
+
+
+Después de cualquiera de las dos opcines anteriores, podrás importarla en tus ficheros `.swift`.
 
 ```Swift
 import iDNIe

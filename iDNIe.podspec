@@ -19,9 +19,9 @@ Librería basada en Swift que permite las siguientes opciones:
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-# spec.dependency "BigInt"
-# spec.dependency "CryptoSwift", '1.6.0'
-# spec.dependency "OpenSSL-Universal", '1.1.1900'
+ spec.dependency "BigInt.swift"
+ spec.dependency "CryptoSwift", '1.6.0'
+ spec.dependency "OpenSSL-Universal", '1.1.1900'
  
   spec.source        = { :git => "https://github.com/diegocidm4/iDNIe.git", :tag => "#{spec.version}" }
   spec.default_subspec     = 'Core'
