@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iDNIe"
-  spec.version      = "3.01.20"
+  spec.version      = "3.01.22"
   spec.summary      = "Librería basada en Swift para el uso del DNIe"
 
   spec.description  = <<-DESC
