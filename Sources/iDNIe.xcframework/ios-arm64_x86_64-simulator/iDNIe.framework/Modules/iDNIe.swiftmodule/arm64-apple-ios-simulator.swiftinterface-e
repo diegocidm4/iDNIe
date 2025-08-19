@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iDNIe
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iDNIe
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import BigInt
 import CommonCrypto
 import Compression
@@ -644,6 +645,7 @@ public enum CertificateItem : Swift.String {
   case notBefore
   case notAfter
   public init?(rawValue: Swift.String)
+  @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -709,6 +711,7 @@ public enum DocTypeEnum : Swift.String {
   case TD2
   case OTHER
   public init?(rawValue: Swift.String)
+  @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -777,6 +780,7 @@ public class DatosCertificado {
   public var fechaFinValidez: Swift.String
   public var estado: Swift.Int
   public var email: Swift.String
+  public var commonName: Swift.String
   public init()
   public func inicializa()
   public func convierteDatosDnie() -> iDNIe.DatosDNIe
@@ -905,9 +909,11 @@ public enum DataGroupId : Swift.Int, Swift.CaseIterable {
   public func getName() -> Swift.String
   public static func getIDFromName(name: Swift.String) -> iDNIe.DataGroupId
   public init?(rawValue: Swift.Int)
+  @available(iOS 13, macOS 10.15, *)
   public typealias AllCases = [iDNIe.DataGroupId]
+  @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.Int
-  public static var allCases: [iDNIe.DataGroupId] {
+  nonisolated public static var allCases: [iDNIe.DataGroupId] {
     get
   }
   public var rawValue: Swift.Int {
@@ -1111,7 +1117,7 @@ public enum LogLevel : Swift.Int, Swift.CaseIterable {
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [iDNIe.LogLevel]
   public typealias RawValue = Swift.Int
-  public static var allCases: [iDNIe.LogLevel] {
+  nonisolated public static var allCases: [iDNIe.LogLevel] {
     get
   }
   public var rawValue: Swift.Int {
