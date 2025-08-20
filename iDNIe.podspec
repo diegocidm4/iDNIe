@@ -17,11 +17,11 @@ Librería basada en Swift que permite las siguientes opciones:
   spec.author       = { "Diego Cid Merino" => "diegocidm4@hotmail.com" }
 
   spec.ios.deployment_target = "12.1"
-  spec.swift_version = "4.2"
+  spec.swift_version = "5.0"
 
- spec.dependency "BigInt.swift"
+ spec.dependency "BigInt.swift", '1.0.0'
  spec.dependency "CryptoSwift", '1.6.0'
- spec.dependency "OpenSSL-Universal", '1.1.2300'
+ spec.dependency "OpenSSL-Universal", '1.1.2301'
  
   spec.source        = { :git => "https://github.com/diegocidm4/iDNIe.git", :tag => "#{spec.version}" }
   spec.default_subspec     = 'Core'
@@ -29,6 +29,15 @@ Librería basada en Swift que permite las siguientes opciones:
   spec.subspec 'Core' do |core|
     core.preserve_paths      = 'Sources/iDNIe.xcframework'
     core.vendored_frameworks = 'Sources/iDNIe.xcframework'
+    core.ios.deployment_target = '12.0'
   end
 
+  spec.pod_target_xcconfig = {
+    'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
+  }
+
+  spec.user_target_xcconfig = {
+    'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
+  }
+  
 end
