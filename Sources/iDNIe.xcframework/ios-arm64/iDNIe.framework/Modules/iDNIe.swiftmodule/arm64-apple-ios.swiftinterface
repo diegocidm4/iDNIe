@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iDNIe
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import BigInt
 import CommonCrypto
 import Compression
@@ -135,10 +135,14 @@ public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class OpenSSLUtils {
   public static func getOpenSSLError() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, macOS 10.15, *)
   public static func getPublicKeyData(from key: Swift.OpaquePointer) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, macOS 10.15, *)
   public static func decodePublicKeyFromBytes(pubKeyData: [Swift.UInt8], params: Swift.OpaquePointer) -> Swift.OpaquePointer?
+  #endif
   public static func computeSharedSecret(privateKeyPair: Swift.OpaquePointer, publicKey: Swift.OpaquePointer) -> [Swift.UInt8]
   @objc deinit
 }
@@ -204,21 +208,31 @@ public class NFCPassportModel {
   public var passportMRZ: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var placeOfBirth: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var residenceAddress: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var phoneNumber: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var documentSigningCertificate: X509Wrapper? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var countrySigningCertificate: X509Wrapper? {
     get
   }
+  #endif
   public var LDSVersion: Swift.String {
     get
   }
@@ -273,21 +287,29 @@ public class NFCPassportModel {
   public var isChipAuthenticationSupported: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var passportImage: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var signatureImage: UIKit.UIImage? {
     get
   }
+  #endif
   public var activeAuthenticationSupported: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var fatherName: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var motherName: Swift.String? {
     get
   }
+  #endif
   public var authCert: DigitalCert?
   public var signCert: DigitalCert?
   public var dgpCert: DigitalCert?
@@ -308,17 +330,23 @@ public class NFCPassportModel {
   public init()
   public init(from dump: [Swift.String : Swift.String])
   public func addDataGroup(_ id: DataGroupId, dataGroup: DataGroup)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getDataGroup(_ id: DataGroupId) -> DataGroup?
+  #endif
   public func dumpPassportData(selectedDataGroups: [DataGroupId], includeActiveAuthenticationData: Swift.Bool = false) -> [Swift.String : Swift.String]
   public func getHashesForDatagroups(hashAlgorythm: Swift.String) -> [DataGroupId : [Swift.UInt8]]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyPassport(masterListURL: Foundation.URL?, useCMSVerification: Swift.Bool = false)
+  #endif
   public func verifyActiveAuthentication(challenge: [Swift.UInt8], signature: [Swift.UInt8])
   @objc deinit
 }
 @available(iOS 13, macOS 10.15, *)
 public class ASN1Item : Swift.CustomDebugStringConvertible {
   public init(line: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getChild(_ child: Swift.Int) -> ASN1Item?
+  #endif
   public func getNumberOfChildren() -> Swift.Int
   public var debugDescription: Swift.String {
     get
@@ -371,7 +399,9 @@ public class DataGroup14 : DataGroup {
 public enum DNIeSingPadding : Swift.String {
   case PKCS
   case PSS
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -399,14 +429,30 @@ public class DataGroup {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class HexadecimalUtils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getDirectoryFromPath(path: Swift.String) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getFileFromPath(path: Swift.String) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getIDFromPath(path: Swift.String) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertPathToHex(path: Swift.String) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertPartPathToHex(path: Swift.String) -> Swift.UInt8?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertLeftCharToHex(caracter: Swift.String) -> Swift.UInt8?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertRightCharToHex(caracter: Swift.String) -> Swift.UInt8?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convertIntToUInt8Array(entero: Swift.Int) -> [Swift.UInt8]?
+  #endif
   public static func convertHexaStringtoUInt8Array(hexString: Swift.String) -> [Swift.UInt8]
   @objc deinit
 }
@@ -416,16 +462,32 @@ extension Swift.Array where Element == Swift.UInt8 {
 @objc @available(iOS 13, *)
 public class PassportReader : ObjectiveC.NSObject {
   public var passiveAuthenticationUsesOpenSSL: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(logLevel: LogLevel = .info, masterListURL: Foundation.URL? = nil)
+  #endif
   public func setMasterListURL(_ masterListURL: Foundation.URL)
   public func overrideNFCDataAmountToRead(amount: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func readPassport(accessKey: Swift.String, paceKeyReference: Swift.UInt8, tags: [DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, leeCertificadosPublicos: Swift.Bool = true, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func signTextDNIe(accessKey: Swift.String, pin: Swift.String, datosFirma: Swift.String, signPadding: DNIeSingPadding = .PKCS, certToUse: DNIeCertificates?, passport: NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func signDocumentDNIe(accessKey: Swift.String, pin: Swift.String, document: Foundation.URL, signPadding: DNIeSingPadding = .PKCS, certToUse: DNIeCertificates, passport: NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func signHashDNIe(accessKey: Swift.String, pin: Swift.String, hash: [Swift.UInt8], digest: [Swift.UInt8], signPadding: DNIeSingPadding = .PKCS, certToUse: DNIeCertificates, passport: NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, operacion: DNIeOperations, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func authenticationDNIe(accessKey: Swift.String, pin: Swift.String, passport: NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func authenticationDNIeOpenSession(accessKey: Swift.String, pin: Swift.String, passport: NFCPassportModel?, paceKeyReference: Swift.UInt8, tags: [DataGroupId] = [], skipSecureElements: Swift.Bool = true, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func signChallengeDNIe(hash: [Swift.UInt8], digest: [Swift.UInt8], signPadding: DNIeSingPadding = .PKCS, passport: NFCPassportModel?, paceKeyReference: Swift.UInt8, customDisplayMessage: ((NFCViewDisplayMessage) -> Swift.String?)? = nil, completed: @escaping (NFCPassportModel?, NFCPassportReaderError?) -> ())
+  #endif
   @objc deinit
 }
 @available(iOS 13, *)
@@ -469,9 +531,11 @@ public enum NFCPassportReaderError : Swift.Error {
 }
 @available(iOS 13, macOS 10.15, *)
 extension NFCPassportReaderError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @available(iOS 13, macOS 10.15, *)
 public enum OpenSSLError : Swift.Error {
@@ -486,9 +550,11 @@ public enum OpenSSLError : Swift.Error {
 }
 @available(iOS 13, macOS 10.15, *)
 extension OpenSSLError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public enum PassiveAuthenticationError : Swift.Error {
   case UnableToParseSODHashes(Swift.String)
@@ -496,9 +562,11 @@ public enum PassiveAuthenticationError : Swift.Error {
   case SODMissing(Swift.String)
 }
 extension PassiveAuthenticationError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class DataGroup12 : DataGroup {
@@ -560,7 +628,9 @@ public class PACEInfo : SecurityInfo {
   override public func getObjectIdentifier() -> Swift.String
   override public func getProtocolOIDString() -> Swift.String
   public func getVersion() -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParameterId() -> Swift.Int?
+  #endif
   public func getParameterSpec() throws -> Swift.Int32
   public func getMappingType() throws -> PACEMappingType
   public func getKeyAgreementAlgorithm() throws -> Swift.String
@@ -644,7 +714,9 @@ public enum CertificateItem : Swift.String {
   case publicKeyAlgorithm
   case notBefore
   case notAfter
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -654,34 +726,70 @@ public enum CertificateItem : Swift.String {
 @available(iOS 13, macOS 10.15, *)
 public class X509Wrapper {
   final public let cert: Swift.OpaquePointer
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(with cert: Swift.OpaquePointer?)
+  #endif
   public func getItemsAsDict() -> [CertificateItem : Swift.String]
   public func certToPEM() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFingerprint() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNotBeforeDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNotAfterDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSerialNumber() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSignatureAlgorithm() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getPublicKeyAlgorithm() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getIssuerName() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSubjectName() -> Swift.String?
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PkiUtils {
   public static func decrypt(modulus: [Swift.UInt8], publicExponent: [Swift.UInt8], privateExponent: [Swift.UInt8], message: [Swift.UInt8]) throws -> [Swift.UInt8]
   public static func encrypt(modulus: [Swift.UInt8], publicExponent: [Swift.UInt8], privateExponent: [Swift.UInt8], message: [Swift.UInt8]) throws -> [Swift.UInt8]
   public static func encrypt(modulus: [Swift.UInt8], publicExponent: [Swift.UInt8], message: [Swift.UInt8]) throws -> [Swift.UInt8]
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getRSAKey(modulus: [Swift.UInt8], publicExponent: [Swift.UInt8], privateExponent: [Swift.UInt8]?) -> CryptoSwift.RSA
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func encryptWithDer(base64Cert: Swift.String, message: [Swift.UInt8]) throws -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getPubKey(base64Cert: Swift.String) throws -> Security.SecKey?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getPubCertificate(base64Cert: Swift.String) throws -> Security.SecCertificate?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getPubKey(pubCertificate: Security.SecCertificate) throws -> Security.SecKey?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getModulus(publicKey: Security.SecKey) throws -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getModulusPSS(publicKey: Security.SecKey) throws -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getModulusFromPubCertificate(base64Cert: Swift.String) throws -> [Swift.UInt8]?
+  #endif
   public static func getModulusSizeInBits(modulus: [Swift.UInt8]) throws -> Swift.Int
   public static func parsePublicSecKey(publicKey: Security.SecKey) throws -> (mod: Foundation.Data, exp: Foundation.Data)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func encryptWithSecKey(publicKey: Security.SecKey, message: [Swift.UInt8]) throws -> [Swift.UInt8]?
+  #endif
   public static func calculaHash256(prnd: [Swift.UInt8], kic: [Swift.UInt8], rnd: [Swift.UInt8], sn: [Swift.UInt8]) -> [Swift.UInt8]
   public static func calculaHash256(kifdicc: [Swift.UInt8], valor: [Swift.UInt8]) -> [Swift.UInt8]
   public static func calculaHash256(firma: [Swift.UInt8]) -> [Swift.UInt8]
@@ -699,7 +807,9 @@ public class X509Wrapper {
   public static func calculaKenc(kifdicc: [Swift.UInt8]) -> [Swift.UInt8]
   public static func calculaKmac(kifdicc: [Swift.UInt8]) -> [Swift.UInt8]
   public static func incrementaSSC(ssc: [Swift.UInt8]) -> [Swift.UInt8]
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func generaHash(filePath: Swift.String) -> CryptoKit.SHA256.Digest?
+  #endif
   public static func getDocumentHash(url: Foundation.URL) throws -> [Swift.UInt8]
   public static func getSHA256(url: Foundation.URL) throws -> CryptoKit.SHA256.Digest
   public static func getPemFromBase64(base64String: Swift.String) -> Swift.String
@@ -710,7 +820,9 @@ public enum DocTypeEnum : Swift.String {
   case TD1
   case TD2
   case OTHER
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -752,7 +864,9 @@ public enum DNIeOperations : Swift.String {
   case AUTENTICACION
   case FIRMA_DATOS
   case FIRMA_DOCUMENTO
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -761,7 +875,9 @@ public enum DNIeOperations : Swift.String {
 public enum DNIeCertificates : Swift.String {
   case AUTENTICACION
   case FIRMA
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -796,65 +912,151 @@ public class DatosCertificado {
 }
 public class DatosDNIe {
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(nif: Swift.String, nombreCompleto: Swift.String, nombre: Swift.String, apellido1: Swift.String, apellido2: Swift.String, firma: UIKit.UIImage, imagen: UIKit.UIImage, fechaNacimiento: Swift.String, provinciaNacimiento: Swift.String, municipioNacimiento: Swift.String, nombrePadre: Swift.String, nombreMadre: Swift.String, fechaValidez: Swift.String, emisor: Swift.String, nacionalidad: Swift.String, sexo: Swift.String, direccion: Swift.String, provinciaActual: Swift.String, municipioActual: Swift.String, numSoporte: Swift.String, certificadoAutenticacion: DatosCertificado?, certificadoFirma: DatosCertificado?, certificadoCA: DatosCertificado?, integridadDocumento: Swift.Bool?, pemCertificadoFirmaSOD: Swift.String?, can: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNif() -> Swift.String?
+  #endif
   public func setNif(nif: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNombreCompleto() -> Swift.String?
+  #endif
   public func setNombreCompleto(nombreCompleto: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNombre() -> Swift.String?
+  #endif
   public func setNombre(nombre: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getApellido1() -> Swift.String?
+  #endif
   public func setApellido1(apellido1: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getApellido2() -> Swift.String?
+  #endif
   public func setApellido2(apellido2: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFirma() -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setFirma(firma: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getImagen() -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setImagen(imagen: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFechaNacimiento() -> Swift.String?
+  #endif
   public func setFechaNacimiento(fechaNacimiento: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getProvinciaNacimiento() -> Swift.String?
+  #endif
   public func setProvinciaNacimiento(provinciaNacimiento: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getMunicipioNacimiento() -> Swift.String?
+  #endif
   public func setMunicipioNacimiento(municipioNacimiento: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNombrePadre() -> Swift.String?
+  #endif
   public func setNombrePadre(nombrePadre: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNombreMadre() -> Swift.String?
+  #endif
   public func setNombreMadre(nombreMadre: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getfechaValidez() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setfechaValidez(fechaValidez: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getemisor() -> Swift.String?
+  #endif
   public func setemisor(emisor: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getnacionalidad() -> Swift.String?
+  #endif
   public func setnacionalidad(nacionalidad: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getsexo() -> Swift.String?
+  #endif
   public func setsexo(sexo: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getdireccion() -> Swift.String?
+  #endif
   public func setdireccion(direccion: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getprovinciaActual() -> Swift.String?
+  #endif
   public func setprovinciaActual(provinciaActual: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getmunicipioActual() -> Swift.String?
+  #endif
   public func setmunicipioActual(municipioActual: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getnumSoporte() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setnumSoporte(numSoporte: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getcertificadoAutenticacion() -> DatosCertificado?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setcertificadoAutenticacion(certificadoAutenticacion: DatosCertificado?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getcertificadoFirma() -> DatosCertificado?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setcertificadoFirma(certificadoFirma: DatosCertificado?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getcertificadoCA() -> DatosCertificado?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setcertificadoCA(certificadoCA: DatosCertificado?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getPassport() -> NFCPassportModel?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setPassport(passport: NFCPassportModel?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getIntegridadDocumento() -> Swift.Bool?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setIntegridadDocumento(integridadDocumento: Swift.Bool?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getpemCertificadoFirmaSOD() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setpemCertificadoFirmaSOD(pemCertificadoFirmaSOD: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getdatosICAO() -> DatosICAO?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setdatosICAO(datosICAO: DatosICAO?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCan() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCan(can: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func geterroresVerificacion() -> [any Swift.Error]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func seterroresVerificacion(erroresVerificacion: [any Swift.Error]?)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DNIeUtils {
@@ -866,12 +1068,22 @@ public class DatosDNIe {
 @_hasMissingDesignatedInitializers public class StringUtils {
   public static func localizedString(forKey key: Swift.String) -> Swift.String
   public static func localizedStringFramework(forKey key: Swift.String) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func nacimientoToDate(cadena: Swift.String) -> Foundation.Date?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func stringToDate(cadena: Swift.String, formato: Swift.String) -> Foundation.Date?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func formateaFecha(fecha: Foundation.Date, formato: Swift.String) -> Swift.String?
+  #endif
   public static func UCTStringToString(utcString: Swift.String, formato: Swift.String) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func recuperasw1(cadena: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func recuperasw2(cadena: Swift.String) -> Swift.String?
+  #endif
   @objc deinit
 }
 @available(iOS 13, macOS 10.15, *)
@@ -908,7 +1120,9 @@ public enum DataGroupId : Swift.Int, Swift.CaseIterable {
   case Unknown
   public func getName() -> Swift.String
   public static func getIDFromName(name: Swift.String) -> DataGroupId
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   @available(iOS 13, macOS 10.15, *)
   public typealias AllCases = [DataGroupId]
   @available(iOS 13, macOS 10.15, *)
@@ -933,8 +1147,12 @@ extension Swift.String {
   public var length: Swift.Int {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func indexOf(target: Swift.String) -> Swift.Int?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func lastIndexOf(target: Swift.String) -> Swift.Int?
+  #endif
   public func contains(s: Swift.String) -> Swift.Bool
   public func index(from: Swift.Int) -> Swift.String.Index
   public func substring(from: Swift.Int) -> Swift.String
@@ -1025,7 +1243,9 @@ public class CardAccess {
   public static func parseaCDF(passport: NFCPassportModel, data: [Swift.UInt8]) throws -> NFCPassportModel
   public static func parseaPrKDF(passport: NFCPassportModel, data: [Swift.UInt8]) throws -> NFCPassportModel
   public static func parseaCertificado(asn1Array: [ASN1Item]) throws -> DatosCertificado
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func convierteEnFecha(strDate: Swift.String, withFormat format: Swift.String = "dd/MM/yyyy") -> Foundation.Date?
+  #endif
   @objc deinit
 }
 public class PassportUtils {
@@ -1114,7 +1334,9 @@ public enum LogLevel : Swift.Int, Swift.CaseIterable {
   case info
   case warning
   case error
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [LogLevel]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [LogLevel] {
@@ -1143,7 +1365,9 @@ public class BACHandler {
   public var kifd: [Swift.UInt8]
   public init()
   public init(tagReader: TagReader)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func performBACAndGetSessionKeys(mrzKey: Swift.String, completed: @escaping (_ error: NFCPassportReaderError?) -> ())
+  #endif
   public func sessionKeys(data: [Swift.UInt8]) throws -> ([Swift.UInt8], [Swift.UInt8], [Swift.UInt8])
   @objc deinit
 }
@@ -1200,8 +1424,12 @@ public class BACHandler {
   public static let SHA256_DIGESTINFO_HEADER: [Swift.UInt8]
   public static let SHA384_DIGESTINFO_HEADER: [Swift.UInt8]
   public static let SHA512_DIGESTINFO_HEADER: [Swift.UInt8]
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func decrypt(datos: [Swift.UInt8], keyData: Foundation.Data) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func decrypt(datos: [Swift.UInt8], privateKey: Security.SecKey) -> [Swift.UInt8]?
+  #endif
   public static func handleProgress(percentualProgress: Swift.Int) -> Swift.String
   public static func customDisplayMessage(displayMessage: NFCViewDisplayMessage) -> Swift.String
   @objc deinit
