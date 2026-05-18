@@ -12061,6 +12061,13 @@
         "moduleName": "iDNIe"
       },
       {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "iDNIe"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PassportReader",
         "printedName": "PassportReader",
@@ -14843,6 +14850,43 @@
             "declKind": "EnumElement",
             "usr": "s:5iDNIe22NFCPassportReaderErrorO13InvalidAccessyA2CmF",
             "mangledName": "$s5iDNIe22NFCPassportReaderErrorO13InvalidAccessyA2CmF",
+            "moduleName": "iDNIe"
+          },
+          {
+            "kind": "Var",
+            "name": "DNIeBlock",
+            "printedName": "DNIeBlock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(iDNIe.NFCPassportReaderError.Type) -> iDNIe.NFCPassportReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCPassportReaderError",
+                    "printedName": "iDNIe.NFCPassportReaderError",
+                    "usr": "s:5iDNIe22NFCPassportReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "iDNIe.NFCPassportReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCPassportReaderError",
+                        "printedName": "iDNIe.NFCPassportReaderError",
+                        "usr": "s:5iDNIe22NFCPassportReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5iDNIe22NFCPassportReaderErrorO0A5BlockyA2CmF",
+            "mangledName": "$s5iDNIe22NFCPassportReaderErrorO0A5BlockyA2CmF",
             "moduleName": "iDNIe"
           },
           {
@@ -40483,175 +40527,175 @@
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 458,
+      "offset": 478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 573,
+      "offset": 593,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 612,
+      "offset": 632,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 655,
+      "offset": 675,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1278,
+      "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1619,
+      "offset": 1639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1823,
+      "offset": 1843,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1984,
+      "offset": 2004,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2299,
+      "offset": 2319,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2369,
+      "offset": 2389,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2431,
+      "offset": 2451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 3333,
+      "offset": 4384,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3364,
+      "offset": 4415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3469,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
-      "kind": "Array",
-      "offset": 5839,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5870,
+      "offset": 4520,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 8681,
+      "offset": 6890,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8712,
+      "offset": 6921,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 11628,
+      "offset": 9731,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 11659,
+      "offset": 9762,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 14226,
+      "offset": 12678,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 14257,
+      "offset": 12709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
-      "offset": 16771,
+      "offset": 15276,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
-      "offset": 16802,
+      "offset": 15307,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
+      "kind": "Array",
+      "offset": 17821,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cqesolutions\/COU\/Workspace\/XCode\/iDNIeLibrary\/Framework\/iDNIe\/iDNIe\/NFC\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17852,
       "length": 4,
       "value": "true"
     },
