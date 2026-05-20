@@ -13,31 +13,34 @@ Librería basada en Swift que permite las siguientes opciones:
                    DESC
 
   spec.homepage     = "https://github.com/diegocidm4/iDNIe"
-  spec.license      = { :type => "Comercial", :file => "LICENSE" }
+  
+  # Usamos un asterisco para que busque el archivo LICENSE dentro de la carpeta del zip
+  spec.license      = { :type => "Comercial", :file => "**/LICENSE" }
   spec.author       = { "Diego Cid Merino" => "diegocidm4@hotmail.com" }
 
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "5.0"
 
- spec.dependency "BigInt.swift", '1.0.0'
- spec.dependency "CryptoSwift", '1.6.0'
- spec.dependency "OpenSSL-Universal", '1.1.2301'
+  spec.dependency "BigInt.swift", '1.0.0'
+  spec.dependency "CryptoSwift", '1.6.0'
+  spec.dependency "OpenSSL-Universal", '1.1.2301'
  
   spec.source = { :http => "https://github.com/diegocidm4/iDNIe/archive/refs/tags/#{spec.version}.zip" }
   spec.default_subspec     = 'Core'
 
   spec.subspec 'Core' do |core|
-    core.preserve_paths      = 'Sources/iDNIe.xcframework'
-    core.vendored_frameworks = 'Sources/iDNIe.xcframework'
+    # Añadimos '**/' para que busque en cualquier subcarpeta que genere el ZIP
+    core.preserve_paths      = '**/Sources/iDNIe.xcframework'
+    core.vendored_frameworks = '**/Sources/iDNIe.xcframework'
     core.ios.deployment_target = '12.0'
   end
 
   spec.pod_target_xcconfig = {
     'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
-  }
+  end
 
   spec.user_target_xcconfig = {
     'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
-  }
+  end
   
 end
