@@ -23,7 +23,6 @@ Librería basada en Swift que permite las siguientes opciones:
  spec.dependency "CryptoSwift", '1.6.0'
  spec.dependency "OpenSSL-Universal", '1.1.2301'
  
-  #spec.source        = { :git => "https://github.com/diegocidm4/iDNIe.git", :tag => "#{spec.version}" }
   spec.source = { :http => "https://github.com/diegocidm4/iDNIe/archive/refs/tags/#{spec.version}.zip" }
   spec.default_subspec     = 'Core'
 
