@@ -13,8 +13,6 @@ Librería basada en Swift que permite las siguientes opciones:
                    DESC
 
   spec.homepage     = "https://github.com/diegocidm4/iDNIe"
-  
-  # Usamos un asterisco para que busque el archivo LICENSE dentro de la carpeta del zip
   spec.license      = { :type => "Comercial", :file => "**/LICENSE" }
   spec.author       = { "Diego Cid Merino" => "diegocidm4@hotmail.com" }
 
@@ -29,18 +27,12 @@ Librería basada en Swift que permite las siguientes opciones:
   spec.default_subspec     = 'Core'
 
   spec.subspec 'Core' do |core|
-    # Añadimos '**/' para que busque en cualquier subcarpeta que genere el ZIP
     core.preserve_paths      = '**/Sources/iDNIe.xcframework'
     core.vendored_frameworks = '**/Sources/iDNIe.xcframework'
     core.ios.deployment_target = '12.0'
   end
 
-  spec.pod_target_xcconfig = {
-    'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
-  end
-
-  spec.user_target_xcconfig = {
-    'IPHONEOS_DEPLOYMENT_TARGET' => '12.0'
-  end
+  spec.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
+  spec.user_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
   
 end
