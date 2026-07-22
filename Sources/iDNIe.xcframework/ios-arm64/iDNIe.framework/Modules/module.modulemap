@@ -7,5 +7,4 @@ framework module iDNIe {
 
 module iDNIe.Swift {
   header "iDNIe-Swift.h"
-  requires objc
 }
