@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iDNIe"
-  spec.version      = "3.1.31"
+  spec.version      = "3.1.32"
   spec.summary      = "Librería basada en Swift para el uso del DNIe"
 
   spec.description  = <<-DESC
@@ -13,7 +13,7 @@ Librería basada en Swift que permite las siguientes opciones:
                    DESC
 
   spec.homepage     = "https://github.com/diegocidm4/iDNIe"
-  spec.license      = { :type => "Comercial", :file => "**/LICENSE" }
+  spec.license      = { :type => "Comercial", :text => "Comercial de CQESolutions. Todos los derechos reservados." }
   spec.author       = { "Diego Cid Merino" => "diegocidm4@hotmail.com" }
 
   spec.ios.deployment_target = "12.1"
