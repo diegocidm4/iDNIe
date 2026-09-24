@@ -34,5 +34,4 @@ Librería basada en Swift que permite las siguientes opciones:
 
   spec.pod_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '15.0' }
   spec.user_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '15.0' }
-  
 end
