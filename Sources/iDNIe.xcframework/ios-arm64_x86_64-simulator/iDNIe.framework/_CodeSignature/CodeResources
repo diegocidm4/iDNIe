@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jNZWtTSqOWTpNimzkBnTEctI8bQ=
+		fM8TGWUQMyHjVHGI92X7zpPwj3g=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0XqiviRcI4VcIOFD0phsqaE04ig=
+		XhNUGR5TH5v6Ay5+MQBvlPYtSZk=
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mEUzltB7ZXkL1tlKbfIB1Md+n2s=
+		sgcKjfL/hAsDVhCXU/ocPEOTmcs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJzYkNrUCPKqg0CRnYAZA4kaTjJXH7YhL6MFldr1TrU=
+			lHdW+7P6q0GToTee6jAfYkDW+WOuBoOGvwmDCIFtcuA=
 			</data>
 		</dict>
 		<key>Modules/iDNIe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GiEmR+cn2vrqJu1Pk1LFj3s+JTAaDDVMLLuPQW/896w=
+			ma0Z0syN0kyQv0fzulQ6Ok4/vpVKrsS2mMoSUiQmzIU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
