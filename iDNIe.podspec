@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iDNIe"
-  spec.version      = "3.1.43"
+  spec.version      = "3.1.44"
   spec.summary      = "Librería basada en Swift para el uso del DNIe"
 
   spec.description  = <<-DESC
@@ -19,8 +19,8 @@ Librería basada en Swift que permite las siguientes opciones:
   spec.ios.deployment_target = "15.0"
   spec.swift_version = "5.0"
 
-  spec.dependency "BigInt.swift", '1.0.0'
-  spec.dependency "CryptoSwift", '1.6.0'
+  #spec.dependency "BigInt.swift", '1.0.0'
+  #spec.dependency "CryptoSwift", '1.6.0'
   spec.dependency "OpenSSL-Universal", '1.1.2301'
  
   spec.source = { :http => "https://github.com/diegocidm4/iDNIe/archive/refs/tags/#{spec.version}.zip" }
