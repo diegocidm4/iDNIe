@@ -3,15 +3,12 @@
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iDNIe
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import AudioToolbox
-import BigInt
 import CommonCrypto
 import Compression
 import CoreNFC
 import CryptoKit
-import CryptoSwift
 import CryptoTokenKit
 import Foundation
-import OpenSSL
 import Swift
 import SwiftUI
 import UIKit
@@ -670,10 +667,10 @@ public class X509Wrapper {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PkiUtils {
+  public static func getRSAKey(modulus: [Swift::UInt8], publicExponent: [Swift::UInt8], privateExponent: [Swift::UInt8]?) -> iDNIe::DNIeRSAKey
   public static func decrypt(modulus: [Swift::UInt8], publicExponent: [Swift::UInt8], privateExponent: [Swift::UInt8], message: [Swift::UInt8]) throws -> [Swift::UInt8]
   public static func encrypt(modulus: [Swift::UInt8], publicExponent: [Swift::UInt8], privateExponent: [Swift::UInt8], message: [Swift::UInt8]) throws -> [Swift::UInt8]
   public static func encrypt(modulus: [Swift::UInt8], publicExponent: [Swift::UInt8], message: [Swift::UInt8]) throws -> [Swift::UInt8]
-  public static func getRSAKey(modulus: [Swift::UInt8], publicExponent: [Swift::UInt8], privateExponent: [Swift::UInt8]?) -> CryptoSwift::RSA
   public static func encryptWithDer(base64Cert: Swift::String, message: [Swift::UInt8]) throws -> [Swift::UInt8]?
   public static func getPubKey(base64Cert: Swift::String) throws -> Security::SecKey?
   public static func getPubCertificate(base64Cert: Swift::String) throws -> Security::SecCertificate?
@@ -1028,6 +1025,11 @@ public class CardAccess {
   public static func parseaPrKDF(passport: iDNIe::NFCPassportModel, data: [Swift::UInt8]) throws -> iDNIe::NFCPassportModel
   public static func parseaCertificado(asn1Array: [iDNIe::ASN1Item]) throws -> iDNIe::DatosCertificado
   public static func convierteEnFecha(strDate: Swift::String, withFormat format: Swift::String = "dd/MM/yyyy") -> Foundation::Date?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class DNIeRSAKey {
+  public func decrypt(message: [Swift::UInt8]) throws -> [Swift::UInt8]
+  public func encrypt(message: [Swift::UInt8]) throws -> [Swift::UInt8]
   @objc deinit
 }
 public class PassportUtils {
